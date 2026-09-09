@@ -1,0 +1,29 @@
+# Live Meeting Notes
+
+## Decisions
+- Shift focus away from traditional cycle planning due to stalled roadmaps and lack of preparation for teams like Zach's.
+- Decided to temporarily use existing cycle planning terminology for now, with plans to consider renaming it later.
+- Agreed that enforcing planning logic and standards is necessary to ensure clarity despite time-consuming initial effort.
+
+## Action Items
+- Consider renaming 'cycle planning' in the future.
+- Continue using existing terminology for now to ensure immediate continuity.
+- Develop and implement a standardized planning process to prevent low standards and ensure consistency across teams.
+- Soll will conduct the survey before their 11:00 AM meeting.
+- The arranger will send the survey responses by the end of the call to facilitate feedback.
+
+## Open Questions
+- Determine the specific alternative planning structure that will replace cycle planning.
+- Confirm when and how the cycle planning structure will be replaced.
+- Identify which teams currently lack the preparation required for high-standard cycle planning.
+- Understand how team work can be made more pin-pointable by seeing good examples in front of people.
+
+## Topic Notes
+- Cycle planning challenges caused by recent changes and stalled roadmaps affecting several teams, including Zach's.
+- Proposal for a pulse and reflection cycle as the alternative planning structure.
+- The necessity of establishing clear planning standards to make team work more pin-pointable and manageable.
+- Learning through visual examples of good work to help teams understand standards better.
+- Reviewing survey feedback to inform next steps before the rescheduled call.
+
+## Asked
+- (none yet)
