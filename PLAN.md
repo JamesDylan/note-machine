@@ -56,22 +56,23 @@ The 2026-09-10 raw transcript contains "expine of thinking", "the inflammation t
 
 ## Proposed plan
 
-### Phase 1 — Stabilise the core (highest value)
-1. Delta-based merge: ops schema, stable item IDs, code-owned state, no deletions outside compaction.
-2. Content guard on every state transition (item counts can't silently shrink).
+### Phase 1 — Stabilise the core ✅ DONE 2026-09-10
+1. ✅ Delta-based merge: ops schema, stable item IDs, code-owned state, no deletions.
+2. ✅ Content guards + anti-accretion cap on updates.
+3. ✅ (added) Gist-per-chunk observability; temperature 0; `num_ctx` 16384 (Ollama's default 4096 silently truncated grown prompts — major failure source).
+4. ✅ (added) Eval harness in `evals/` with real-transcript replay, invariants, fact checks; gold-standard case from the Gemini-covered migration meeting.
+5. ✅ (added) Editorial loop every ~5 min: reads recent transcript + notes, promotes emerged decisions, resolves answered questions with answers, merges/splits/groups, maintains a living summary. Replaces the old compaction pass.
+6. ✅ (added) `--new <title>` named sessions and `--attendees` for name accuracy.
 
 ### Phase 2 — Transcript quality
-3. VAD-based chunking (replaces fixed 10s windows).
-4. Upgrade Whisper model to `small.en` / `distil-small.en`.
-5. Decouple transcription cadence from merge cadence (merge every ~3–4 chunks with rolling transcript context).
-6. Auto-stop after ~3 min of silence (falls out of VAD).
+7. ✅ Upgrade Whisper model to `small.en`.
+8. VAD-based chunking (replaces fixed 10s windows).
+9. Auto-stop after ~3 min of silence (falls out of VAD).
 
 ### Phase 3 — Quality of life
-7. Clean shutdown on Ctrl+C (flush state, print summary).
-8. `--new <title>` for named sessions.
-9. `git init` + move session outputs to `sessions/`.
-10. Fix the wake-phrase content-discard bug.
-11. Fixed meeting template support (scratchpad #6).
+10. Clean shutdown on Ctrl+C (flush state, run one final editorial pass, print summary).
+11. `git init` + move session outputs to `sessions/`.
+12. Fixed meeting template support (scratchpad #6).
 
 ### Phase 4 — Toward the vision (spec these properly first)
 12. Voice-requested edits to the doc (extend the wake-phrase path from Q&A to edit ops — the delta architecture makes this nearly free).
