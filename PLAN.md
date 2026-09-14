@@ -66,13 +66,20 @@ The 2026-09-10 raw transcript contains "expine of thinking", "the inflammation t
 
 ### Phase 2 — Transcript quality
 7. ✅ Upgrade Whisper model to `small.en`.
-8. VAD-based chunking (replaces fixed 10s windows).
-9. Auto-stop after ~3 min of silence (falls out of VAD).
+8. ✅ (2026-09-14) Silence hallucination fix: energy gate + Whisper VAD + `condition_on_previous_text=False` + text filter. Root cause of the repeated-bullet loop — up to 81% of some raw logs were Whisper echoing its sentence-shaped initial_prompt. Prompt is now a bare term list.
+9. VAD-based chunk *boundaries* (cut on pauses, not fixed 10s) — VAD currently filters within fixed windows only.
+10. Auto-stop after ~3 min of silence (the energy gate makes this nearly free).
+
+### Phase 2b — Notes you can trust and read ✅ DONE 2026-09-14
+- Duplicate guard on every add (token containment); tombstoned deletions block re-adds.
+- Accretion fix: updates that restate an item plus a bolted-on clause are refused. Previously they were downgraded to adds, which produced columns of ever-longer near-copies.
+- Two-way notes file: hand edits are reconciled back into state and lock the item; deleted bullets tombstone; hand-typed bullets are adopted. IDs ride in invisible `<!--D1-->` comments.
+- Readability: items capped at ~25 words in both prompts, timestamps per item, action items as owner checkboxes, topic `###` headings with grouping forced once 6+ are ungrouped.
+- Templates (`--template`, `templates.json`): section order + per-meeting-type focus hint.
 
 ### Phase 3 — Quality of life
-10. Clean shutdown on Ctrl+C (flush state, run one final editorial pass, print summary).
-11. `git init` + move session outputs to `sessions/`.
-12. Fixed meeting template support (scratchpad #6).
+11. Clean shutdown on Ctrl+C (flush state, run one final editorial pass, print summary).
+12. `git init` + move session outputs to `sessions/`.
 
 ### Phase 4 — Toward the vision (spec these properly first)
 12. Voice-requested edits to the doc (extend the wake-phrase path from Q&A to edit ops — the delta architecture makes this nearly free).
