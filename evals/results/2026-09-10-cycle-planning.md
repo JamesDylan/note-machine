@@ -1,13 +1,13 @@
 # Eval: 2026-09-10-cycle-planning
-*Run 2026-09-10 14:42, model qwen3.5:4b, whisper n/a (text replay)*
+*Run 2026-09-14 14:27, model qwen3.5:4b, whisper n/a (text replay)*
 
 ## Metrics
 - Chunks: 58
-- Ops emitted / applied: 44 / 44
-- Silent chunks (model chose no ops): 14
+- Ops emitted / applied: 46 / 45
+- Silent chunks (model chose no ops): 15
 - Merge failures (all retries exhausted): 0
 - Editorial passes: 2
-- Final item count: 38
+- Final item count: 44
 - Invariant violations: 0
 
 ## Fact checks
@@ -20,56 +20,75 @@
 
 ## Final notes
 
-# Live Meeting Notes
+# Meeting Notes — Mon 14 Sep 2026
 
-*The team is redesigning the heavy cycle planning process to improve visibility and engagement, moving from a 24-person slide deck to a mix of asynchronous video presentations and a simplified 'demo-style' storyline format.*
+> The team agreed to test new cycle planning formats (videos and revamped slides) to improve visibility and product thinking without forcing attendance.
 
 ## Decisions
-- Agreed to test a new cycle planning approach for V2 that uses asynchronous video presentations and a simplified 'demo-style' storyline to replace the heavy slide deck.
-- Agreed to test a new cycle planning approach for V2 that uses asynchronous video presentations and a simplified 'demo-style' storyline to replace the heavy slide deck; engineering managers are encouraged to try this lighter weight version where they do not need to present.
-- Agreed to test a new cycle planning approach for V2 that uses asynchronous video presentations and a simplified 'demo-style' storyline to replace the heavy slide deck; engineering managers are encouraged to try this lighter weight version where they do not need to present; the communication plan regarding this approach will be solidified and communicated early next week.
+- [14:24] Test video recordings and revamped slide decks as alternatives to traditional presentations. <!--D23-->
+- [14:27] Use two slides per PM: one for goals/metrics and one for engineering delivery info. <!--D42-->
+- [14:27] Invite engineering partners as audience without changing the existing invite list. <!--D43-->
+- [14:27] Align cycle planning cadence with Francis's update schedule to reduce redundant reporting. <!--D44-->
 
 ## Action Items
-- Team members must record a 2-5 minute video within 24 hours to present their individual cycle plan storyline in an asynchronous format, sharing the script with engineering managers and stakeholders to validate the value of the session planning.
-- Speaker to complete a survey before their 11 AM meeting.
-- Team members must complete and send out the cycle planning form within the next 24 hours to finalize the new asynchronous presentation approach.
+- [ ] [14:22] **PMs** — PMs record 2-5 minute videos on cycle plan storyline. <!--A14-->
+- [ ] [14:22] Test video recording as alternative to slide deck. <!--A17-->
+- [ ] [14:26] **Speaker** — PMs send completed surveys for feedback. <!--A41-->
 
 ## Open Questions
 - (none yet)
 
-## Topic Notes
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content.
-- Engineering managers advocate for a forcing mechanism to engage product managers in leadership-level discussions to address perceived unwillingness to act; cycle planning stability is a concern if the process shifts to a different version.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises; the next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers.
-- The next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers; the team should elevate the approach used in the new cycle planning deck's first slide (defining goals and next steps) to a higher level, moving towards a demo-style presentation.
-- For V2, product managers must follow the meeting cadence and gather information from their engineering managers to present, rather than requiring full synchronization in the meeting.
-- PM Group to conduct a think-out session to probe questions while allowing the speaker and Libi to observe or participate.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises; the next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers; team members should use their product boards as a reference to answer specific questions and tell a story about the answers rather than relying on memory.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises; the next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers; team members should use their product boards as a reference to answer specific questions and tell a story about the answers rather than relying on memory; the team should practice asking and critiquing questions together to deepen thinking and utilize a boardboy critique method to help each other.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises; the next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers; team members should use their product boards as a reference to answer specific questions and tell a story about the answers rather than relying on memory; the team should practice asking and critiquing questions together to deepen thinking and utilize a boardboy critique method to help each other; the ultimate objective is to provide visibility into what the team is working on so people can find it when needed, without forcing them to sit through the entire meeting.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; need to give the team an exercise to strengthen their thinking muscle while keeping the process intact with the product board; the exercise should focus on defining the goal, success criteria, and tracking what has moved to CNC's lifecycle versus what is currently in motion; engineering members must present from an engineering perspective by engaging with EMs and PMs to synthesize lessons learned, changes, and surprises; the next step is to create an end-to-end storyline that integrates the engineering perspective with the views of managers and product managers; team members should use their product boards as a reference to answer specific questions and tell a story about the answers rather than relying on memory; the team should practice asking and critiquing questions together to deepen thinking and utilize a boardboy critique method to help each other; the ultimate objective is to provide visibility into what the team is working on so people can find it when needed, without forcing them to sit through the entire meeting; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; the previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed.
-- Cycle planning preparation timeline is approximately two weeks with the event scheduled for the 20th, which is when team members typically begin putting significant effort into preparation.
-- The previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach.
-- The previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency.
-- The previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency; the new format will use two slides per Product Manager (one overarching, one with specific delivery team information) to replace the heavy slide deck, with PMs responsible for gathering this data from their Engineering Managers.
-- Team members need a separate practice run to construct a clear information spine before presenting to avoid losing the plot.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; the previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency; the new format will use two slides per Product Manager (one overarching, one with specific delivery team information) to replace the heavy slide deck, with PMs responsible for gathering this data from their Engineering Managers; using a digital tool like Giro to access cycle information makes preparation easy, suggesting this method could simplify the new cycle planning process if teams follow their refinement processes.
-- The previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency; the new format will use two slides per Product Manager (one overarching, one with specific delivery team information) to replace the heavy slide deck, with PMs responsible for gathering this data from their Engineering Managers; aligning the separate cadence of updates given by Engineering Managers to the Product Manager with the cycle planning process is suggested to avoid redundancy.
-- Engineering leadership feels overwhelmed by the frequency and low level of reporting required multiple times a week.
-- Engineering leadership feels overwhelmed by the frequency and low level of reporting required multiple times a week.
-- The previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency; the new format will use two slides per Product Manager (one overarching, one with specific delivery team information) to replace the heavy slide deck, with PMs responsible for gathering this data from their Engineering Managers; Engineering Managers are invited to the session planning meeting as an audience to listen rather than present, reducing the meeting duration while keeping them in the loop.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; the previous cycle planning approach was too difficult for 24 people to execute and watch, so a simpler, more absorbable alternative is being proposed; the new version aims to provide confident visibility into near-term staff work and clearly identify dependencies while explicitly rejecting the 'bottom of the cliff' approach; the team aims to improve product thinking by focusing on the smallest slices of value to ensure dependencies are identified and the value delivered is clear; the objective is to preserve the pause and reflection and stories regarding where the team came from, what they have learned, and where they are going to ensure visibility and transparency; the new format will use two slides per Product Manager (one overarching, one with specific delivery team information) to replace the heavy slide deck, with PMs responsible for gathering this data from their Engineering Managers; Engineering Managers are invited to the session planning meeting as an audience to listen rather than present, reducing the meeting duration while keeping them in the loop; the process should be streamlined so that gathering information for the deck is a default action for teams rather than a separate, burdensome task.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; Product Managers are expected to describe their team's situation and sync status, but must actively engage with Engineering Managers to resolve questions and uncertainties.
-- Product Managers are expected to describe their team's situation and sync status, but must actively engage with Engineering Managers to resolve questions and uncertainties; managers should surface insights from team retrospectives to force PMs to talk to engineering teams to figure out the engineering team's viewpoint.
-- Connecting lessons learned from team work to exponential value delivery.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; team members are not fully engaged or listening during the presentation.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; team members are not fully engaged or listening during the presentation; teams are currently struggling to fill their backlogs, suggesting the issue may not be solely due to Product Managers.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; team members are not fully engaged or listening during the presentation; teams are currently struggling to fill their backlogs, suggesting the issue may not be solely due to Product Managers; the next cycle planning event is expected to be tricky due to recent changes and roadmaps being put on hold for some team members.
-- Engineering team members experiencing a period of flux or instability; presentation deck feels too heavy and needs to be revisited; testing the product board approach to avoid manual copying of slide content; team members are not fully engaged or listening during the presentation; teams are currently struggling to fill their backlogs, suggesting the issue may not be solely due to Product Managers; the next cycle planning event is expected to be tricky due to recent changes and roadmaps being put on hold for some team members; forcing people to establish standards for their logic and presentation is considered worthwhile to prevent the inability to pin down details when standards are low.
+## Discussion
+### Engineering Leadership Challenges
+- [14:20] Engineering team in flux <!--T1-->
+- [14:20] Forcing mechanisms impacting partners and engineering managers <!--T2-->
+- [14:21] Forcing partners to sync on forward leadership <!--T3-->
+- [14:21] Product managers engaging partners on leadership level <!--T4-->
 
-## Asked
-- (none yet)
+### Slide Deck Structure
+- [14:21] Confirm two slides per PM for product board. <!--T5-->
+- [14:21] Testing product board format for slide deck <!--T6-->
+- [14:21] Include thinking exercises in product board format <!--T7-->
+- [14:21] Include first slide with goals, success metrics, and lifecycle status <!--T8-->
+- [14:21] Create end-to-end storyline for product board <!--T10-->
+- [14:22] Revamp slide deck to follow first slide format. <!--T16-->
+
+### Testing New Formats
+- [14:21] Test two versions of cycle planning format <!--T11-->
+- [14:21] Part-out managers follow cadence for V2 <!--T12-->
+- [14:23] Test new cycle plan version with confident visibility and dependency call-outs. <!--T21-->
+- [14:24] Engineering managers present lighter weight format. <!--T24-->
+
+### Preparation and Tools
+- [14:24] Create separate practice run for information spine construction. <!--T25-->
+- [14:24] Use Giro for pre-work to simplify slide and cycle deck creation. <!--T26-->
+- [14:24] Teams struggle with gathering information for decks. <!--T30-->
+- [14:25] Finalize communication skeleton before sharing with PMs. <!--T36-->
+- [14:25] Communicate plan early next week for preparation time. <!--T37-->
+
+### Reporting and Syncs
+- [14:24] Align cycle planning with Francis's update cadence. <!--T27-->
+- [14:24] Engineering leadership reporting on low-level information. <!--T28-->
+- [14:24] Invite engineering partners as audience without changing invite list. <!--T29-->
+- [14:25] PMs must clearly communicate sync status with the team. <!--T31-->
+- [14:25] PMs surface engineering team insights to understand their viewpoint. <!--T32-->
+
+### Engagement and Backlog
+- [14:25] Apply learned insights immediately rather than letting them disappear. <!--T33-->
+- [14:25] Attendees lack full engagement during presentations. <!--T34-->
+- [14:25] PMs drive story through ownership of what they look after. <!--T35-->
+- [14:26] Teams struggle to fill backlogs. <!--T38-->
+- [14:26] Shift focus from cycle planning due to roadmap changes. <!--T39-->
+- [14:26] Forcing standards helps pin down logic despite time cost. <!--T40-->
+
+### Other
+- [14:21] Engineering teams present from product engineering angle <!--T9-->
+- [14:22] PM Group think-out session for storyline clarity <!--T13-->
+- [14:22] Test video recording as alternative to slide deck. <!--T15-->
+- [14:22] Provide visibility into work without forcing attendance. <!--T18-->
+- [14:22] Improve product thinking via small value slices. <!--T19-->
+- [14:23] Revisit cycle plan storyline deeply. <!--T20-->
+- [14:23] Include pause and reflection stories in objective level. <!--T22-->
+
+---
+*Edit any bullet above and the change sticks — it will not be overwritten. Delete a bullet and it stays gone.*

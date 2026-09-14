@@ -75,8 +75,8 @@ MAX_NO_SPEECH_PROB = 0.6        # per-segment: discard anything Whisper itself d
 PROMPT_ECHO_THRESHOLD = 0.65    # share of a line's words that must come from the prompt to count as an echo
 HALLUCINATION_PHRASES = [       # Whisper's stock filler on silence, from training-data subtitles
     "thank you for watching", "thanks for watching", "please subscribe",
-    "subscribe to my channel", "like and subscribe", "see you next time",
-    "transcription by", "subtitles by", "www.", ".com",
+    "subscribe to my channel", "like and subscribe",
+    "transcription by", "subtitles by", "subs by",
 ]
 
 # --- Duplicate suppression ---

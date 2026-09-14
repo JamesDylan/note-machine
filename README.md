@@ -53,6 +53,23 @@ transcription and the notes:
 python3 live_notes.py --new "migration deltas" --attendees "Lilly, Remy, Chris, Craig, Pratima, Louise, Daryl, Andre"
 ```
 
+Pick a template to shape the notes for the kind of meeting — it sets the
+section order and tells the model what matters (commitments in a 1:1,
+blockers in a standup, verbatim detail in an interview):
+```bash
+python3 live_notes.py --new "lilly 1-1" --attendees "Lilly" --template 1-1
+```
+Built in: `default`, `1-1`, `standup`, `planning`, `interview`. They live
+in `templates.json` (created on first run) — edit or add your own there.
+
+**Correcting notes mid-meeting:** just edit the notes file. Reword a
+bullet and your wording is kept and locked, so the model can never
+overwrite it. Delete a bullet and it stays gone — the model is blocked
+from re-adding it. Type a new bullet under any section and it's adopted
+as your own note. Changes are picked up on the next chunk (~10s). Each
+bullet ends in an invisible `<!--D1-->` comment; leave it in place, it's
+how your edit is matched to the right note.
+
 **Resuming the current meeting** (e.g. after a restart mid-meeting):
 ```bash
 python3 live_notes.py
@@ -189,6 +206,15 @@ notes in the report; if the fact is there, loosen that fact's `any_of`.
   the core engine.
 - 10s chunking means sentences can get cut mid-thought; whisper.cpp/
   faster-whisper will sometimes mistranscribe a cut-off sentence.
+- Whisper invents speech during silence (echoing its own prompt, dot
+  runs, "thanks for watching"). An energy gate, Whisper's VAD, and a text
+  filter now drop these before they reach the notes — the terminal logs
+  each drop as `[dropped: ...]`. If real speech ever shows up there, raise
+  `PROMPT_ECHO_THRESHOLD` or lower `SILENCE_RMS` in `live_notes.py`.
+- Duplicate notes are suppressed by word overlap (`DUP_THRESHOLD`). Two
+  genuinely different notes that share most of their words can be
+  wrongly merged into one; lower-signal than the repeated-bullet loop it
+  replaces, but watch for `[add suppressed]` lines if something's missing.
 - No "settle" logic yet — every chunk gets merged immediately, so a
   half-finished thought can produce a rough or premature bullet. This
   is one of the open questions in the project brief.
