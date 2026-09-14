@@ -1,0 +1,52 @@
+{
+  "default": {
+    "title": "Meeting Notes",
+    "sections": [
+      "decisions",
+      "action_items",
+      "open_questions",
+      "topics"
+    ],
+    "focus": ""
+  },
+  "1-1": {
+    "title": "1:1 Notes",
+    "sections": [
+      "action_items",
+      "open_questions",
+      "decisions",
+      "topics"
+    ],
+    "focus": "This is a one-on-one. What matters most: commitments each person makes, feedback given or received, blockers and frustrations raised, and career or development topics. Attribute action items to the person who owns them."
+  },
+  "standup": {
+    "title": "Standup Notes",
+    "sections": [
+      "action_items",
+      "open_questions",
+      "decisions",
+      "topics"
+    ],
+    "focus": "This is a standup. What matters most: what each person is working on, what is blocked and who is blocking it, and anything slipping its date. Keep every item to one short line."
+  },
+  "planning": {
+    "title": "Planning Notes",
+    "sections": [
+      "decisions",
+      "action_items",
+      "open_questions",
+      "topics"
+    ],
+    "focus": "This is a planning session. What matters most: scope decisions, what is explicitly in and out, sequencing and dependencies, estimates, and the owner of each piece of work."
+  },
+  "interview": {
+    "title": "Interview Notes",
+    "sections": [
+      "topics",
+      "open_questions",
+      "action_items",
+      "decisions"
+    ],
+    "focus": "This is a user or candidate interview. What matters most: what the interviewee actually said in their own words, problems and workarounds they describe, and follow-up questions worth asking. Do not summarise away specifics \u2014 keep concrete details, numbers, and examples."
+  }
+}

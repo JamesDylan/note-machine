@@ -1,0 +1,13 @@
+{
+  "_comment": "Gold-standard case: facts drawn from Gemini's post-meeting notes (see 'Migration - Deltas ... Notes by Gemini.md' in transcripts/, ignored by the runner). The two decisions were never crisply stated in the meeting — they emerged across minutes — so they test the editorial pass specifically.",
+  "must_capture": [
+    {"name": "DECISION: experiment turned on before/with the migration, not after", "any_of": ["before the migration", "before migration", "experiment immediately", "experiment on first", "experiment first", "then start the migration"]},
+    {"name": "DECISION: first load targets single legal entity companies only", "any_of": ["single legal entit", "single-entit", "single entit"]},
+    {"name": "1.4 million company cohort", "any_of": ["1.4 million"]},
+    {"name": "document migration/reconciliation mechanics (contact Keith)", "any_of": ["Keith"]},
+    {"name": "Snowflake vs SOL data discrepancies to investigate", "any_of": ["Snowflake"]},
+    {"name": "multi legal entity companies excluded from first batch", "any_of": ["legal entit", "multiple legal"]},
+    {"name": "deactivation script needs company-level scope", "any_of": ["deactivat", "disabled"]},
+    {"name": "use-case/acceptance-criteria doc for QA", "any_of": ["use case", "acceptance criteria", "QA"]}
+  ]
+}

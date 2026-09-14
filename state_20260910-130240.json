@@ -1,0 +1,127 @@
+{
+  "decisions": [],
+  "action_items": [
+    {
+      "id": "A2",
+      "text": "James and Mita to obtain the specific edge case from James to validate B4B experience coverage."
+    },
+    {
+      "id": "A4",
+      "text": "DLH to run a query over the 1.4 million companies in Snowflake, splitting the data into two groups to validate the impact of the target and potential congestion issues."
+    },
+    {
+      "id": "A8",
+      "text": "Dave to document the reconciliation process and related procedures to avoid reliance on informal communication."
+    },
+    {
+      "id": "A9",
+      "text": "Keith to investigate obtaining an approximate set of data matching the shape of production to enable real measurement of the experiment."
+    },
+    {
+      "id": "A13",
+      "text": "Jacqui to initiate a conversation with the company management team to prioritize and bump up the list of disabled accounts to address login issues for users without opt-out accounts, noting that this requires expanding beyond the current user-based script to include company and member levels, flagging specific companies via an admin mechanism for Phase Two, and measuring the impact of stopping new customer registrations with countries and regions to inform the rollout of Phase Two."
+    },
+    {
+      "id": "A14",
+      "text": "DSA to provide include and exclude guidance from Snowflake data, and DLH to provide notes on the exclusion sequel regarding what is missing from Snowflake."
+    },
+    {
+      "id": "A24",
+      "text": "Product team to define an admin flagging mechanism for companies to opt-in or opt-out of the new feature, ensuring this logic executes simultaneously with the availability of the currency feature."
+    },
+    {
+      "id": "A26",
+      "text": "James and Chris to coordinate with Keith to get comfortable with the Delta data."
+    },
+    {
+      "id": "A27",
+      "text": "Team to document the list of companies in Delta for testing purposes."
+    },
+    {
+      "id": "A29",
+      "text": "Craig to extract available transcript data and create a separate page in the working document set to address the lack of documentation regarding the transcript problem, ensuring the list of critical items is compiled for QA review."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q5",
+      "text": "Are there data problems that could affect the experiment? (Speaker notes Kasey missed the stand-up and suggests asking him to answer this question for reassurance, and emphasizes the need for documentation.)"
+    },
+    {
+      "id": "Q6",
+      "text": "Can you explain what the hourly reconciliation process does?"
+    },
+    {
+      "id": "Q7",
+      "text": "Who is responsible for documenting the scenarios required to test the experiment?"
+    },
+    {
+      "id": "Q11",
+      "text": "What are the specific use cases of the migration and reconciliation processes, as the speaker notes that understanding these is necessary to avoid making assumptions about their reliability."
+    },
+    {
+      "id": "Q12",
+      "text": "Will focusing the experiment on the active base of companies rather than all companies change the timeframe or impact the reconciliation and migration processes?"
+    },
+    {
+      "id": "Q15",
+      "text": "Is there a one-to-one mapping between Snowflake and SOL companies, and what is the percentage of companies that do not match?"
+    },
+    {
+      "id": "Q16",
+      "text": "Are there discrepancies between the SOL and Snowflake data sources that need to be identified for data governance purposes?"
+    },
+    {
+      "id": "Q17",
+      "text": "How are multiple legal entities being excluded from the company list, and is there a separate Snowflake database managing this exclusion logic?"
+    },
+    {
+      "id": "Q19",
+      "text": "How can we distinguish between users utilizing the feature as a language agency feature versus a currency feature given that only the currency feature is currently downloadable?"
+    },
+    {
+      "id": "Q20",
+      "text": "Are users with multiple countries and regions utilizing the feature for currency purposes or for managing multiple legal entities, and should access be restricted until the feature is fully available?"
+    },
+    {
+      "id": "Q21",
+      "text": "Will the introduction of the legal entity concept for multi-country companies require manual setup by users, or will it be pre-configured in the product?"
+    },
+    {
+      "id": "Q22",
+      "text": "How does the upcoming Phase Three experiment, which hides the countries and regions UI while moving users to a linguistics feature, differ from the current experiment in terms of user visibility and migration strategy?"
+    },
+    {
+      "id": "Q23",
+      "text": "How should we handle the 46,000 active companies (60% active in the last three months) regarding the change process for those who will not set up, given there is no time to manage stripping away the current setup?"
+    },
+    {
+      "id": "Q25",
+      "text": "How should the system handle companies with multiple legal entities when introducing the new feature, specifically regarding the admin flagging mechanism and the synchronization with the currency feature availability?"
+    },
+    {
+      "id": "Q28",
+      "text": "Is the current problem and lack of documentation regarding the staging verification process fully understood, given that Anthony is not present to provide complete context?"
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Companies with a single legal entity do not need to be on the inclusion list as they lack SSO access over EOS, allowing them to remain inactive without affecting the experiment, and this is because admin access is currently only available in SOL."
+    },
+    {
+      "id": "T3",
+      "text": "An hourly reconciliation process runs to take the delta of changes in SOL not in the platform and update the platform to mitigate noise in alerting and dashboards; this mechanism uses AI and business language to determine scores and prevent B4B experience failures, while the migration process handles specific company requirements (such as Booking.com's need to include all companies), and Sadeesh raised concerns that phased loading would increase complexity; the speaker notes that these processes serve specific use cases and asks Anthony to consider negative cases."
+    },
+    {
+      "id": "T10",
+      "text": "Need to verbally list and document specific test cases for the experiment to ensure comprehensive coverage."
+    },
+    {
+      "id": "T18",
+      "text": "Companies expecting a specific feature will not be migrated immediately to avoid delays in understanding their requirements; instead, they will remain in their current state until the feature is fully available or their needs are better understood."
+    }
+  ],
+  "asked": [],
+  "next_id": 30
+}

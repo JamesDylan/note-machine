@@ -1,0 +1,773 @@
+{
+  "summary": "James and Lilly review Q3 performance, highlighting strong growth but critical issues with retention, engineering capacity, and product roadmap clarity.",
+  "attendees": [
+    "James",
+    "Lilly"
+  ],
+  "decisions": [
+    {
+      "id": "D189",
+      "text": "The team agreed to refocus the churn KPI on 'regrettable churn' and prioritize building a PRD for the company card booking funnel."
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A181",
+      "text": "James to meet with Dawn and Kat today to start the PRD for mastering bookings on SOL."
+    },
+    {
+      "id": "A182",
+      "text": "James to record and share the Q3 reflection presentation with Lena and Zach."
+    },
+    {
+      "id": "A183",
+      "text": "James to request a capability assessment regarding front-end engineering capacity due to EOS migration and unsustainable backend/frontend ratios."
+    },
+    {
+      "id": "A187",
+      "text": "James to have an honest conversation with Chris about the lack of design work and the need for the team to lean into design rather than waiting."
+    },
+    {
+      "id": "A188",
+      "text": "James to provide a timeline for the final copy design to Dan Brown to address the delay in design delivery."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q5",
+      "text": "How will full overlap with Serko AI be achieved?"
+    },
+    {
+      "id": "Q184",
+      "text": "What is the current status of the bookings modernized project and when will it be completed?"
+    },
+    {
+      "id": "Q185",
+      "text": "Will the company card functionality be added to the partner's side or handled internally?"
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Laura is recovering but remains hesitant about multiple specialist recommendations for spinal fusion, including a steroid injection, and has received conflicting information from specialists.",
+      "group": "Health Updates"
+    },
+    {
+      "id": "T3",
+      "text": "James discussed his neck and arm pain, a specialist at Austeo who used acupuncture to help him, and an ACC plan.",
+      "group": "Health Updates"
+    },
+    {
+      "id": "T4",
+      "text": "The speaker is discussing a strategic direction for 2027 and has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings.",
+      "group": "Engineering & Product Roadmap"
+    },
+    {
+      "id": "T6",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, and is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4.",
+      "group": "Engineering & Product Roadmap"
+    },
+    {
+      "id": "T7",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, and plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy."
+    },
+    {
+      "id": "T8",
+      "text": "The speaker is discussing a strategic direction for 2027, distinguishing between desired outcomes and current responsibilities to align with Renee's perspective, and has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings."
+    },
+    {
+      "id": "T9",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, and plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy."
+    },
+    {
+      "id": "T10",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, and plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy."
+    },
+    {
+      "id": "T11",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, and plans to work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T12",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T13",
+      "text": "The speaker is discussing a strategic direction for 2027, distinguishing between desired outcomes and current responsibilities to align with Renee's perspective, has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings, and plans to work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T14",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T15",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T16",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it."
+    },
+    {
+      "id": "T17",
+      "text": "The speaker is discussing a strategic direction for 2027, distinguishing between desired outcomes and current responsibilities to align with Renee's perspective, has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings, and plans to work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T18",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T19",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T20",
+      "text": "The speaker is discussing a strategic direction for 2027, distinguishing between desired outcomes and current responsibilities to align with Renee's perspective, has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings, and plans to work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T21",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T22",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T23",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T24",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T25",
+      "text": "The speaker is discussing a strategic direction for 2027, distinguishing between desired outcomes and current responsibilities to align with Renee's perspective, has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings, and plans to work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T26",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T27",
+      "text": "The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4, plans to apply lessons learned from a previous meeting in Newmarket to establish a directional view on the platform strategy, and will work one-on-one with Renee on Tuesday to review the plan, which is due by Wednesday."
+    },
+    {
+      "id": "T28",
+      "text": "The speaker identified a major gap in their factoring product regarding payments and expenses, noting they have a pending paper from a"
+    },
+    {
+      "id": "T29",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T30",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T31",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T32",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T33",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T34",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T35",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T36",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T37",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T38",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T39",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T40",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T41",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T42",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T43",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T44",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T45",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T46",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T47",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T48",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T49",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T50",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T51",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T52",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T53",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T54",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T55",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T56",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T57",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T58",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T59",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T60",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T61",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T62",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T63",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T64",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T65",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T66",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T67",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T68",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T69",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T70",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T71",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T72",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T73",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T74",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T75",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T76",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T77",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T78",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T79",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T80",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T81",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T82",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T83",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T84",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T85",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T86",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T87",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T88",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T89",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T90",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T91",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T92",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T93",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T94",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T95",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T96",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T97",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T98",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T99",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T100",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T101",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T102",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T103",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T104",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T105",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T106",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T107",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T108",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T109",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T110",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T111",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T112",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T113",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T114",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T115",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T116",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T117",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T118",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T119",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T120",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T121",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T122",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T123",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T124",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T125",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T126",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T127",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T128",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T129",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T130",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T131",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T132",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T133",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T134",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T135",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T136",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T137",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T138",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T139",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T140",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T141",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T142",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T143",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T144",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T145",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T146",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T147",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T148",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T149",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T150",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T151",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T152",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T153",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T154",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T155",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T156",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T157",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T158",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T159",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T160",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T161",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T162",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T163",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T164",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T165",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T166",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T167",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T168",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T169",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T170",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T171",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T172",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T173",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T174",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T175",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T176",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T177",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T178",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the **company graph** which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    },
+    {
+      "id": "T179",
+      "text": "Retaining company cards and virtual card processes to abstract complexity from the booking system."
+    },
+    {
+      "id": "T180",
+      "text": "Defining and tracking 'regrettable churn' versus 'single user freedom' churn to improve retention metrics."
+    },
+    {
+      "id": "T186",
+      "text": "The speaker identified a major gap in their product regarding payments and expenses, noting they have a pending paper from a meeting with Confirma to address it, and is discussing the company graph which includes policy/guardrails, invoicing, VAT, and context within Bcom as part of the roadmap comparison between perk and engine."
+    }
+  ],
+  "asked": [],
+  "next_id": 190
+}

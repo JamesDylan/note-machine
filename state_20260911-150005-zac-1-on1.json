@@ -1,0 +1,185 @@
+{
+  "summary": "James and Zac agreed on a sequential experiment strategy to test direct exits for resolving user confusion between business and personal trips, emphasizing the need to balance short-term booking gains against long-term user retention risks.",
+  "attendees": [
+    "James",
+    "Zac"
+  ],
+  "decisions": [
+    {
+      "id": "D13",
+      "text": "Agreed to run one experiment at a time, starting with the lightest direct exit on the top right corner panel."
+    },
+    {
+      "id": "D25",
+      "text": "Agreed to run one experiment at a time, starting with the most obvious direct exit (Ultra Pool Fest/ABN Building), then WIN; if positive, implement a subtle indicator instead of a direct exit."
+    },
+    {
+      "id": "D34",
+      "text": "Agreed to run one experiment at a time, starting with the lightest direct exit (Ultra Pool Fest/ABN Building, then WIN); if positive, implement a subtle indicator instead of a direct exit."
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A5",
+      "text": "James to clearly frame his actions in the PCB to ensure everyone understands his role, specifically handling the actual workload on the truck feature and the media initiative workflow, noting he can cope with the current workload increase."
+    },
+    {
+      "id": "A14",
+      "text": "James to follow up with Lena regarding her inability to meet today."
+    },
+    {
+      "id": "A30",
+      "text": "James to share the churn slide deck with Zac for review."
+    },
+    {
+      "id": "A35",
+      "text": "James to share the churn slide deck with Zac for review and clarify his role in the PCB."
+    },
+    {
+      "id": "A45",
+      "text": "James to identify any urgent tasks or teams that require immediate support."
+    },
+    {
+      "id": "A50",
+      "text": "James to clearly frame his actions in the PCB to ensure everyone understands his role, specifically handling the actual workload on the truck feature and the media initiative workflow, noting he can cope with the current workload increase without being expected to double up."
+    },
+    {
+      "id": "A51",
+      "text": "James to clearly frame his actions in the PCB to ensure everyone understands his role, specifically handling the actual workload on the truck feature and the media initiative workflow, noting he can cope with the current workload increase without being expected to double up."
+    },
+    {
+      "id": "A52",
+      "text": "James to clearly frame his actions in the PCB to ensure everyone understands his role, specifically handling the actual workload on the truck feature and the media initiative workflow, noting he can cope with the current workload increase without being expected to double up."
+    },
+    {
+      "id": "A53",
+      "text": "James to identify and complete the remaining prerequisite task before proceeding with development."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q17",
+      "text": "Need analysis from the data team to understand why users are being sent away when trying to find the feature.",
+      "resolved": true,
+      "answer": "Resolved: The data team analysis is required to understand why users are being sent away when trying to find the feature."
+    },
+    {
+      "id": "Q32",
+      "text": "Need analysis from the data team to understand why users are being sent away when trying to find the feature and propose solutions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Finalizing the desire for this week by removing unnecessary pop-ups to clarify the system for users and prevent confusion between business and personal trips, ensuring all new features are driven by data points, customer insights, or identified pain points.",
+      "group": "System Clarification"
+    },
+    {
+      "id": "T2",
+      "text": "Run sequential experiments starting with the lightest direct exit (Ultra Pool Fest, ABN Building, then WIN); if positive, implement a subtle indicator instead of a direct exit to prevent users from jumping onto direct exits, noting the order may be reversed to start with Option 2 before Option 3."
+    },
+    {
+      "id": "T3",
+      "text": "New message regarding meeting label change involving Anna.",
+      "group": "System Clarification"
+    },
+    {
+      "id": "T7",
+      "text": "Setting up three test groups (A, B, and C) to run a test between them."
+    },
+    {
+      "id": "T15",
+      "text": "Option 2 vs Option 3 design comparison: Run a quick design comparison for Option 3 only if Option 2 proves very successful; the speaker notes that Option 3 has been followed regarding users being sent away.",
+      "group": "Design Trade-offs and Risks"
+    },
+    {
+      "id": "T20",
+      "text": "Testing the minimum viable test section to validate the riskiest assumption or main goal.",
+      "group": "Design Trade-offs and Risks"
+    },
+    {
+      "id": "T21",
+      "text": "Finding a middle ground solution to address the customer pain point of users being sent away by analyzing session intervals rather than booking intervals to identify churn and running campaigns to incentivize these actions."
+    },
+    {
+      "id": "T23",
+      "text": "Test the impact of removing the Personal link to see if it increases B4B bookings in the short term while analyzing long-term user retention risks.",
+      "group": "Design Trade-offs and Risks"
+    },
+    {
+      "id": "T24",
+      "text": "Evaluating the trade-off between short-term positive results and long-term negative impacts when selecting experiment outcomes.",
+      "group": "Design Trade-offs and Risks"
+    },
+    {
+      "id": "T26",
+      "text": "Defining the post-experiment strategy to balance short-term booking gains against long-term customer retention risks."
+    },
+    {
+      "id": "T27",
+      "text": "Evaluating the long-term impact of increased bookings to ensure users do not leave the platform after a temporary boost."
+    },
+    {
+      "id": "T33",
+      "text": "Testing the impact of deep linking email links directly to the search result page to improve user experience."
+    },
+    {
+      "id": "T36",
+      "text": "Encouraging employees, colleagues, and business users to return to the product."
+    },
+    {
+      "id": "T37",
+      "text": "Exploring alternative ways to leverage new features such as invites and shared trips to improve user engagement."
+    },
+    {
+      "id": "T38",
+      "text": "Exploring whether email reminders create a positive loop that encourages users to return and increases session frequency."
+    },
+    {
+      "id": "T39",
+      "text": "Exploring in-product reminders and post-booking emails to encourage user engagement."
+    },
+    {
+      "id": "T40",
+      "text": "Testing the impact of greeting e-birthday cards that pop up on screen when users log in to B4B."
+    },
+    {
+      "id": "T41",
+      "text": "Need data evidence to support prioritizing the release of the new feature over other initiatives."
+    },
+    {
+      "id": "T42",
+      "text": "Using Snowflake or Qubit queries to find interesting insights or patterns indicating customer behavior."
+    },
+    {
+      "id": "T43",
+      "text": "Comparing current features against competitors like Engine to identify unique ideas and functionalities to adopt."
+    },
+    {
+      "id": "T44",
+      "text": "Converting existing data insights into potential backlog ideas."
+    },
+    {
+      "id": "T46",
+      "text": "James to personally handle idea gathering to address the current gap in the process."
+    },
+    {
+      "id": "T47",
+      "text": "Addressing the critical need to reduce churn given that customer acquisition and churn rates are currently balanced, as improving retention will have a significant impact on the product."
+    },
+    {
+      "id": "T48",
+      "text": "Reviewing random ideas and insights found in the Product Board to identify potential starting points for reducing churn."
+    },
+    {
+      "id": "T49",
+      "text": "Encouraging participants to brainstorm ideas by identifying pain points, friction, or by stealing ideas from competitors."
+    },
+    {
+      "id": "T54",
+      "text": "Finalizing the desire for this week by removing unnecessary pop-ups to clarify the system for users and prevent confusion between business and personal trips, ensuring all new features are driven by data points, customer insights, or identified pain points, with the team currently working on the switch to the personal feature which is a small task they should be able to finish soon."
+    }
+  ],
+  "asked": [],
+  "next_id": 55
+}

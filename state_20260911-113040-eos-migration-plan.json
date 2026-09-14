@@ -1,0 +1,111 @@
+{
+  "summary": "The team finalized the project plan with three milestones, standardized terminology to 'releases', and addressed delivery list formatting and status color coding.",
+  "attendees": [
+    "Francis",
+    "Craig",
+    "James"
+  ],
+  "decisions": [],
+  "action_items": [],
+  "open_questions": [],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, and listing milestones under relevant months on the goal page to avoid duplication."
+    },
+    {
+      "id": "T2",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and removing the development press company from the plan."
+    },
+    {
+      "id": "T3",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and using the word 'release' instead of 'slice' to prevent confusion."
+    },
+    {
+      "id": "T4",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and using the word 'release' instead of 'slice' to prevent confusion."
+    },
+    {
+      "id": "T5",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that estimates are not yet completed with potential confusion between November and September milestones."
+    },
+    {
+      "id": "T6",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and fixing inconsistent text colors (blue and black) in the delivery list."
+    },
+    {
+      "id": "T7",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, fixing inconsistent text colors (blue and black) in the delivery list, and clarifying that yellow status indicates a delay to the specific task but not to the overall program."
+    },
+    {
+      "id": "T8",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, fixing inconsistent text colors (blue and black) in the delivery list, clarifying that yellow status indicates a delay to the specific task but not to the overall program, and simplifying the color scheme to three colors (red, yellow, green) to avoid overcomplicating the view for executive teams."
+    },
+    {
+      "id": "T9",
+      "text": "Discussion on currency selection, Epos sunset confirmation, the lack of an approach for credit card support (payments will not stop despite budget constraints), and noting a potential October milestone for company hierarchy bookings."
+    },
+    {
+      "id": "T10",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, removing the development press company from the plan, and excluding other companies from the EOS project while waiting for Josh to clarify the demand API conversation with Graham."
+    },
+    {
+      "id": "T11",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that tokenization is planned and ready to go while waiting on the vendor."
+    },
+    {
+      "id": "T12",
+      "text": "Discussion on currency selection, Epos sunset confirmation, the lack of an approach for credit card support (payments will not stop despite budget constraints), noting a potential October milestone for company hierarchy bookings, and clarifying that the booking system uses the auth service for permissions."
+    },
+    {
+      "id": "T13",
+      "text": "Discussion on determining the destination for bookings and confirming the Eos migration plan."
+    },
+    {
+      "id": "T14",
+      "text": "Discussion on the two-step checkout design, utilizers, and booking.com payment container, with the team deciding to mark the experiment as in progress."
+    },
+    {
+      "id": "T15",
+      "text": "Discussion on the two-step checkout design, utilizers, and booking.com payment container, with the team deciding to mark the experiment as in progress, noting that the actual payment work is being handled by the JIMS team and the experiment launch is scheduled for October."
+    },
+    {
+      "id": "T16",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that estimates are not yet completed with potential confusion between November and September milestones, and considering changing the September milestone to October due to partnership considerations."
+    },
+    {
+      "id": "T17",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that Francis should review any changes made in the next couple of days during the next catch-up."
+    },
+    {
+      "id": "T18",
+      "text": "Discussion on including updates for Phase 3 and Phase 4 in the overall project updates, noting that the team is moving beyond Phase 2 and there is other work happening that is worth calling out."
+    },
+    {
+      "id": "T19",
+      "text": "Discussion on the poor state of Phase 2 and the timing of the next release."
+    },
+    {
+      "id": "T20",
+      "text": "Discussion on reviewing platform requirements and re-evaluating estimation hinting, noting that estimating time for teams is becoming increasingly difficult and unreliable."
+    },
+    {
+      "id": "T21",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that estimates are not yet completed with potential confusion between November and September milestones, and considering changing the September milestone to October due to partnership considerations, and acknowledging that token throughput rates will dictate the timeline instead of traditional time estimates."
+    },
+    {
+      "id": "T22",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and noting that the primary metric for success is the number of bookings, with the team agreeing that driving this top-line figure up ensures the project's outcome is clear and achievable."
+    },
+    {
+      "id": "T23",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and removing the development press company from the plan."
+    },
+    {
+      "id": "T24",
+      "text": "Discussion on including four versus three milestones in the project plan, updating the delivery list based on confirmed plan items, listing milestones under relevant months on the goal page to avoid duplication, and discarding the current plan as it is broken."
+    }
+  ],
+  "asked": [],
+  "next_id": 25
+}

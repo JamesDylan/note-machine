@@ -1,0 +1,314 @@
+[11:30:57] What are we doing?
+[11:31:19] This meeting may reference these terms and acronyms.
+[11:31:38] All right.
+[11:31:54] Are these four? Or are we good with these three?  So, if we add in milestones into the plan, do we need to add them in here as well?  I can send you through what the things are.  Yeah, we should populate the plan first.
+[11:32:11] And then update the delivery list once we know what the items in the plan actually are.
+[11:32:29] Have you got them, or do you need them?  I have them, Jero.  Okay. Cool.  I'll just write them down.  But I think she was a...
+[11:32:45] This is for you about combining some of these things.
+[11:33:00] Part of it here, which should be fine, because then there's five between now and November,  so we don't need to be that, I don't think we need to be that granular necessarily.
+[11:33:15] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:33:31] There we go. 1, 2, and 3, 3. Do you want them as just a subnote?
+[11:33:46] Or separate swim lanes.
+[11:34:02] So let's just keep them separated. And then in the goal page we can list them under the relevant months as well.  So that just sort of makes it...  It's pulling the same.
+[11:34:20] Or it's just basically as everything else.
+[11:34:36] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:34:52] Maybe I'll just remove the company that does the development press commence, and then just keep the four.  Yeah, just use whatever slice names we've got. We can change the details if it's moved.
+[11:35:11] Well, some of these I think, no, sorry. Sorry, I was looking at a phase four.
+[11:35:27] By the way, we decided we only want to use the word release instead of slice as well.  Just to prevent confusion.  Yeah, so that's what we're going to be using everywhere else.  People are getting too confused.
+[11:35:48] Phases and releases and slices and things.  So we're just gonna say releases when we mean we're releasing something to market and that's it?  Yeah.  Oh, I can get behind that.  And the team can use slices or whatever they want.  What do they like?  Internally.  Yeah.  But it's only when, yeah.
+[11:36:10] When it hits production and it's a release, it's released.
+[11:36:27] And then, let me just put another number here, and then, yeah, something again.
+[11:36:43] We should, yeah, the estimates haven't been completed yet.  Maybe some of these November's will forget the September's.
+[11:37:05] Um, alright, are we happy with these three in delivery?  Yep, yep, yep, just gotta fix the colours at some point or my ICD will go crazy.  What colour? What's wrong with colour?  Text, text colours. Some are blue, some are black. It's killing me.  Well, there's two delays with different colours.
+[11:37:41] Can you give us an example of the kind of the colors?  And Red versus Yellow, I'm okay to have Yellow. I think we should be clear that Yellow means that delay to the thing, but not a delay to the program, maybe.  If we want to do it that way, so it's a non-material delay.
+[11:38:09] I feel like everything's a material delay, but I don't know.  I don't personally feel too bad about it, it's like whatever.  If I see a red delay and a yellow delay, then immediately my brain goes, the red ones are worse.  I feel like, yeah, let's not overcomplicate it though.  Three colors is all that an exec team can handle, and they're looking at like 10,000 different slides, right?  You've got to use color, the charts go up and to the right, that's all you need to know.
+[11:38:39] Sorry, this is, issues exist.  Oh, no, is that, is that a fella?  I don't know if that's a fella.  Yeah, it's a big one.  Um...  Why are you in defense sort of anywhere?  Looks the same to me.  Okay.
+[11:39:01] There you go. You know you can use the format painter in slots, that's the thing.  This is being quite bigger. Okay.  Okay. Next page.  Base 4.
+[11:39:23] Yeah, let's just maybe look at the goal page first. Let's just see what's happening on there.  So this is our bookings and payments, right? So we're very much in September now.  And we get all the August decisions that we needed. I think we did.
+[11:39:47] Okay, so there is a solution outlined for currency selection. We've got an ERD for that. Epos sunset  has been agreed that we are not sunsetting it. Any credit card support? Well, we've decided  that we're still thinking about it, I think, right? It's like we don't have an approach.  Yeah, the approaches kick the can down the road.
+[11:40:12] Alright, we're going to exclude those companies from the EOS stuff for now.  Yeah, but that means that we... what? What does that mean?  I know we're waiting on Josh, because Josh is having that conversation with Graham around the demand API.
+[11:40:44] Any possibility of extension? That's that's the open item. Yeah. Cool. And then tokenization. Yeah,  that's all planned. We're ready to go. We're actually just waiting on the vendor.  And I don't know that the token XOPX budget is even relevant for us. It's just a separate,  like we're obviously going to spend the money no matter what it is.  Do we need, um,
+[11:41:57] Is there something that needs to happen once the budget's approved?  Like, I'm not really across that stuff, but like, we don't need to do a decision to happen.  No, the budget's already approved, I'm not even sure why that's an item.  Should I delete it?  No, I'll leave it there. Well, we'll put it in so there may be some further cost  understanding we need, but we're not going to just stop doing  credit card payments because it's over our TokenX budget.  It might just be an awareness factor.  And then we've got the company hierarchy bookings work in October.  That seems optimistic, but who knows?  We're heading up and for others, check out Utilizer's EOS auth service for permitted operations.  I mean, yeah, I mean, maybe that will happen.  Wait, so if this one is already seeing all of the company experiences...
+[11:42:26] It's a company hierarchy for payments. Okay, so creating a booking for others.  It's just using the auth service for permission, so that's like a back-end link, so I'm not too concerned about that.  Okay, let's have a look. What do we got?  To check out...
+[11:42:49] Yeah, it's all of that stuff in one line. So, I can put some words in for that.  I'll do that now.  Then the sales and bookings model, like what we're going to do with the sales process and bookings, that is...
+[11:43:07] Something we need to get on to pretty promptly because we need to know where  our bookings going to go and the Eos so we can do the migration for those.
+[11:43:26] Two-step checkout design, utilisers, booking.com payment container. I think we should say that's in progress.  Yeah, because the experiment's running.  Um...  Wait, is it?  No, no, no.
+[11:43:48] We've got a two-step check-out experiment running, but this is using the BCOM payment container.  But that's the work that the JIMS team is doing at the moment.  So that's in progress, because that's the actual payment's work.  But worth calling out that the first experiment's not happening until October.
+[11:44:11] Should we just change the September to October? Yeah, I think so, because it's a partnership.  Wait, hang on. Design. Is this just the design? I'm confused now.
+[11:44:34] No, it must be. Users, his user experiences. Yeah, I mean, unless I'm reading it wrong.  Let me find the page. Where are we?
+[11:44:58] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:45:15] Yeah, what do I want to say here?
+[11:45:40] Thank you.
+[11:45:57] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:46:19] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:46:43] This is the current system in the scope of the organization.
+[11:47:00] Just a little band.
+[11:47:37] What domains are these?
+[11:47:57] ...  ...  ...
+[11:48:15] Land, land, land, shop, and then base 5, solar, tote. Who knows what that means or when it means, but what happened?  And then I think on whenever we do the next catch up, Francis, we can just do the mop up on what changes in the next couple of days.
+[11:48:41] And then there's probably some stuff on Phase 3 or Phase 4 that we can call out in the overall updates.  On the Monday one?  Yeah, because we're moving beyond Phase 2 on the way.  We're still haggling it, but there's other work that's happening that's worth calling out.  So we can...
+[11:49:03] It's like trying to count away how shitty phase two looks with what's happening in phase three.  When does this go out? Is this for Monday?
+[11:49:25] I'm just going through the platform requirements stuff, so if I can change that to a finished,  I'll let you know.  Yeah, and I think we've got to really re-look at hinting estimations and the way in life.
+[11:49:45] It's just becoming less and less useful, especially the teams that are being adjudicated on that sense.  It's near impossible to estimate, it's really just a question of how quickly they get through it.
+[11:50:08] Let's do it. Let's do it at the end.  I don't know how we're going to make a roadmap, though. Like, we don't have estimates for anything.  Well, yeah.  Well, estimates will just change the number of tokens. And then we just have a token throughput rate.  And that kind of dictates it, right?  Thank you.
+[11:50:35] The more important thing is we've got to be really clear on what the outcome is that we think we're  going to get from it, because we're going to get to the things faster. So it's going to be we're  capable of doing more work, but assuming we should do it more quick. The only thing we need to care  about is that number of bookings chart. That's literally it. Just keep your eye on that top line.  As long as we're driving that up, then all is safe.
+[11:50:59] Yeah, yeah, for sure. Sweet. Okay. Awesome progress. Yeah. Thank you. Thank you. Bye-bye.
+[11:51:18] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:51:35] This meeting may reference these terms and acronyms.
+[11:51:52] This meeting may reference these terms and acronyms, but it may reference these terms and acronyms.
+[11:52:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:52:26] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:53:22] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:53:41] This meeting may reference these terms and acronyms.
+[11:54:02] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:54:23] The meeting is adjourned.
+[11:54:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:55:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:55:20] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:55:37] This meeting may reference these terms and acronyms, but this meeting may reference these terms.
+[11:55:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:56:19] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:56:58] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:57:20] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:57:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:58:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:58:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:59:02] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[11:59:39] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:00:11] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:00:44] This meeting may reference these terms and acronyms and acronyms. This meeting may reference these terms and acronyms and acronyms and acronyms.
+[12:01:05] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:01:22] This meeting may reference these terms and acronyms and acronyms. This meeting may reference these terms and acronyms and acronyms.
+[12:01:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:02:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:02:25] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:02:44] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:03:05] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.  These are the acronyms.  We will now begin our meeting with Francis, Craig, and Alex.
+[12:03:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:03:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:04:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:04:17] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:05:12] This meeting may reference these terms and acronyms, but this meeting may reference these terms.  This meeting may reference these terms and acronyms.  This meeting may also reference these terms and acronyms.
+[12:05:31] This meeting may reference these terms and acronyms, but this meeting may reference these terms and acronyms.
+[12:05:47] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:06:23] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:06:52] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:07:13] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:07:33] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:07:50] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:08:10] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:08:30] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:08:50] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:09:07] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:09:29] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:10:07] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[12:10:28] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:10:49] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:11:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:11:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:11:58] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:12:35] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:12:52] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:13:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:13:27] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:13:44] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:14:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:14:19] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:14:40] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:15:13] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:15:45] This meeting may reference these terms and acronyms, but this meeting may reference these terms.
+[12:16:02] This meeting may reference these terms and acronyms.
+[12:16:58] This meeting may reference these terms and acronyms.
+[12:17:57] This meeting may reference these terms and acronyms.
+[12:18:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:18:54] This meeting may reference these terms and acronyms.
+[12:19:12] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:19:33] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:19:49] This meeting may reference these terms and acronyms.
+[12:20:08] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:20:30] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:20:49] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:21:06] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:21:27] This meeting may reference these terms and acronyms.
+[12:22:41] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:23:01] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:23:25] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:23:44] This meeting may reference these terms and acronyms.
+[12:24:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:24:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:24:44] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:25:05] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:25:25] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:25:42] This meeting may reference these terms and acronyms and acronyms. This meeting may reference
+[12:26:16] This meeting may reference these terms and acronyms.
+[12:26:34] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:26:51] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:27:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:27:27] This meeting may reference these terms and acronyms.
+[12:27:43] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:28:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:28:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:29:19] This meeting may reference these terms and acronyms.
+[12:29:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:30:04] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:30:23] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:30:39] This meeting may reference these terms and acronyms.
+[12:30:56] Thank you very much.
+[12:31:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:31:53] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:32:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:32:32] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:32:57] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:33:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:33:42] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:34:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:34:17] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:34:35] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:34:52] This meeting may reference these terms and acronyms.
+[12:35:10] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:35:27] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:35:48] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:36:10] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:36:28] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:36:46] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:37:04] This meeting may reference these terms and acronyms.
+[12:37:35] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[12:37:53] This meeting may reference these terms and acronyms.
+[12:38:10] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:38:28] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:38:45] This meeting may reference these terms and acronyms.
+[12:39:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:39:52] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:40:33] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:40:50] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:41:11] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:41:31] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:41:54] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:42:17] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:42:38] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:42:58] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:43:15] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:43:32] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[12:43:49] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:44:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:44:46] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:45:04] This meeting may reference these terms and acronyms.
+[12:45:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:45:41] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:45:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:46:19] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:46:45] This meeting may reference these terms and acronyms. This meeting may actually reference
+[12:47:06] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:47:30] This meeting will begin soon.
+[12:47:51] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:49:08] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:49:31] This meeting may reference these terms and acronyms.
+[12:49:51] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:50:28] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:50:48] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:51:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:51:27] This meeting may reference these terms and acronyms.
+[12:52:25] This meeting may reference these terms and acronyms.
+[12:52:46] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:53:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:53:21] This meeting may reference these terms and acronyms.
+[12:53:39] This meeting may reference these terms and acronyms.
+[12:53:56] This meeting may reference the terms and acronyms. This meeting may reference the terms and acronyms.
+[12:54:12] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[12:54:29] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:54:47] I'm working out who I need to take with me to the gymnastics and stuff.  When's gymnastics?  3.30.  Hmm?  3.30.  Do I need to do that stuff?  Sounds like...  I'm not on the meeting anymore.
+[12:55:04] This meeting may reference these terms and acronyms.
+[12:55:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:56:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:56:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:56:38] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:56:56] This meeting may reference these terms and acronyms.
+[12:57:14] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:57:33] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:58:07] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:58:24] This meeting may reference these terms and acronyms, but this meeting may reference these terms.
+[12:58:43] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:58:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[12:59:41] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:00:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:00:47] Thank you very much.
+[13:01:03] This meeting may reference these terms and acronyms.
+[13:01:20] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:01:38] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:01:56] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:02:15] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:02:33] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:03:22] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[13:03:47] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:04:08] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:04:29] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:04:46] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[13:05:02] This meeting may reference these terms and acronyms, but this meeting may reference these terms.
+[13:05:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:05:43] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:06:04] The meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:06:39] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:06:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:07:36] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:07:57] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:08:36] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:09:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:09:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:09:43] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:10:01] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:10:22] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:10:39] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:10:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:11:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:11:34] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:11:56] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:12:15] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:12:34] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:12:55] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:13:12] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:14:09] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:14:27] This meeting may reference these terms and acronyms.
+[13:15:26] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:17:01] This meeting may reference these terms and acronyms.
+[13:17:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:17:39] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:17:57] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:18:17] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:18:54] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:19:16] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:19:33] This meeting may reference these terms and acronyms, but this meeting may reference these terms and acronyms.
+[13:19:49] Thank you very much.
+[13:20:06] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:20:23] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:21:06] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:21:25] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:21:45] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:22:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:22:47] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:23:24] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:24:05] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:24:26] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:25:04] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:25:22] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:25:43] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:26:07] This meeting was brought to you by the Department of Health, the Department of Health and Human Services and the Department of Health.
+[13:26:28] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:27:03] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:27:27] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:27:49] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:28:29] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:29:12] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:30:05] This meeting may reference these terms and acronyms.  This meeting may reference these terms and acronyms.
+[13:30:26] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:30:44] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:31:02] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:31:20] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:31:39] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:32:00] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:32:59] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:33:21] This meeting may reference these terms and acronyms. This meeting may reference these terms and acronyms.
+[13:33:38] This meeting may reference these terms and acronyms.
+[13:33:55] It's like this lamp's broken, we should throw this out.  Sure.  We're not going to fix this.  We can't fix it, I'll just...  One of the things on the list, you know?  If you like it, we can fix it.
+[13:34:14] It's very broken. Just throw it out.
+[13:34:39] This meeting may reference these terms and acronyms.
+[13:34:58] This meeting may reference these terms and acronyms.

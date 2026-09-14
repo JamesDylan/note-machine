@@ -1,0 +1,81 @@
+{
+  "summary": "The meeting addressed the partial migration of test data to Dev, agreed on a tied commitment for production deployment, and assigned specific owners to coordinate data sharing and onboarding.",
+  "attendees": [],
+  "decisions": [
+    {
+      "id": "D11",
+      "text": "Move the current item into review."
+    },
+    {
+      "id": "D13",
+      "text": "Agreed to treat the current item as a tied commitment requiring coordination between Ravi, Andrey, Anthony, and Shruti for data setup and testing."
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A3",
+      "text": "Andrey to be involved in the tied commitment as he has led the investigation."
+    },
+    {
+      "id": "A4",
+      "text": "Organize an onboarding session for Ravi to ensure he is properly prepared to assist."
+    },
+    {
+      "id": "A5",
+      "text": "Kostura to investigate the memory leak issue with Pruthvi and catch up after the meeting."
+    },
+    {
+      "id": "A10",
+      "text": "Darryl to create a new ticket for the specific use case and set it to blocked to manage the migration of all related items."
+    },
+    {
+      "id": "A12",
+      "text": "Provide a story point estimate for the current item to track progress."
+    },
+    {
+      "id": "A14",
+      "text": "Darryl to create a new blocked ticket for the specific use case to manage the migration of all related items."
+    },
+    {
+      "id": "A15",
+      "text": "Kostura to investigate the memory leak issue with Pruthvi and catch up after the meeting."
+    },
+    {
+      "id": "A16",
+      "text": "Provide a story point estimate for the current item to track progress."
+    },
+    {
+      "id": "A19",
+      "text": "Speaker to draft a technical document regarding the two-stage process."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Is there a plan for another migration to Dev, and if so, should corporates be set up beforehand?",
+      "resolved": true,
+      "answer": "There is no confirmed plan for another migration to Dev yet; however, the team agreed to set up corporates beforehand if a future migration occurs."
+    },
+    {
+      "id": "Q17",
+      "text": "Is the current setup sufficient for a production launch of AB Smartly given that platform services are missing?"
+    }
+  ],
+  "topics": [
+    {
+      "id": "T2",
+      "text": "Discussion on aligning feature implementation with Shruti's requirements, including data sharing for testing, finalizing production deployment plans, onboarding API details, and migrating specific organization IDs to the TDMOS database for flow testing."
+    },
+    {
+      "id": "T18",
+      "text": "Discussion on establishing a process for resolving data discrepancies and scheduling a meeting next Tuesday to finalize this workflow."
+    }
+  ],
+  "asked": [
+    {
+      "q": "please close the open question about AB Smartly. It's confirmed that that  is in fact ready",
+      "a": "The open question regarding the readiness of AB Smartly has been resolved and should be marked as such in the notes. I cannot edit the existing meeting notes, but this resolution has been logged in the Asked section for future reference."
+    }
+  ],
+  "next_id": 20
+}

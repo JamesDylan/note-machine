@@ -21,6 +21,10 @@
 
 ## Topic Notes
 
+**Health Updates**
+- Laura is recovering but remains hesitant about multiple specialist recommendations for spinal fusion, including a steroid injection, and has received conflicting information from specialists.
+- James discussed his neck and arm pain, a specialist at Austeo who used acupuncture to help him, and an ACC plan.
+
 **Engineering & Product Roadmap**
 - The speaker is discussing a strategic direction for 2027 and has started an Excel spreadsheet to track it, organizing the conversation into company experience, policy/guardrails, the booker/arranger experience, and the act of making bookings versus managing bookings.
 - The speaker is discussing the need to review the MDI to enable a technical process, mentions being asked for a platform, and is currently only supporting Facetone while uncertain about achieving full overlap with Serko AI in Q4.

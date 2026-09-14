@@ -1,0 +1,222 @@
+{
+  "summary": "",
+  "attendees": [
+    "Pratima",
+    "James"
+  ],
+  "decisions": [],
+  "action_items": [
+    {
+      "id": "A39",
+      "text": "James to rewrite the acceptance criteria to cite the four states from the journey table, ensuring they name concrete observables instead of restating requirements, while also addressing the issue of the requirement not being formatted as a bullet point."
+    },
+    {
+      "id": "A40",
+      "text": "James to rewrite the acceptance criteria for BR rule 02 to cite the four states from the journey table, ensuring they name concrete observables (specifically the behavior when an administrator triggers a company deletion) instead of restating requirements, while also addressing the issue of the requirement not being formatted as a bullet point."
+    },
+    {
+      "id": "A46",
+      "text": "James to rewrite the acceptance criteria for BR rule 02 to cite the four states from the journey table, ensuring they name concrete observables (specifically the behavior when an administrator triggers a company deletion) instead of restating requirements, while also addressing the issue of the requirement not being formatted as a bullet point."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q14",
+      "text": "There are 11 unclosed open questions, with additional questions referenced in a separate link not included in the current review notes."
+    },
+    {
+      "id": "Q18",
+      "text": "The data template guidance table uses the phrasing 'unverifiable without naming the baseline artifact,' which is identified as an undefined comparison anti-pattern; the comparison target may not exist and the phrasing itself is a template pattern on top of that."
+    },
+    {
+      "id": "Q22",
+      "text": "The claim that closed account members keep their personal booking.com account and can rejoin under the same email has no source in BCD or Figma reference; the cause is the source resolved by trio decision fix, conform with whoever owns the accounts identity model and cite that confirmation."
+    },
+    {
+      "id": "Q23",
+      "text": "The claim that closed account members keep their personal booking.com account and can rejoin under the same email has no source in BCD or Figma reference; the cause is the source resolved by trio decision fix, conform with whoever owns the accounts identity model and cite that confirmation; the profile remains on booking.com and the user can still access it, becoming a personal account where they can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site."
+    },
+    {
+      "id": "Q24",
+      "text": "The claim that closed account members keep their personal booking.com account and can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site is true; however, deleting a company will also delete all its members."
+    },
+    {
+      "id": "Q26",
+      "text": "A requirement for November lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the lead PM has confirmed that November is the date, but the document needs explicit timeframes."
+    },
+    {
+      "id": "Q27",
+      "text": "There are 11 unclosed open questions, with additional questions referenced in a separate link not included in the current review notes; specifically, escalation triggers for names containing 'book' or 'block' have no source in the PCB or Figma reference and were resolved by the trio display."
+    },
+    {
+      "id": "Q28",
+      "text": "The claim that no role holds a subset of the required permissions today has no source in the PCB or Figma reference; the cause is the source resolved by whoever owns the role model and cite that confirmation.",
+      "resolved": true
+    },
+    {
+      "id": "Q29",
+      "text": "The claim that closed account members keep their personal booking.com account and can rejoin under the same email has no source in BCD or Figma reference; the cause is the source resolved by trio decision fix, conform with whoever owns the accounts identity model and cite that confirmation; the profile remains on booking.com and the user can still access it, becoming a personal account where they can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q30",
+      "text": "The claim that closed account members keep their personal booking.com account and can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site is true; however, deleting a company will also delete all its members; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q31",
+      "text": "The claim that closed account members keep their personal booking.com account and can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site is true; however, deleting a company will also delete all its members; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q32",
+      "text": "A requirement for November lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q33",
+      "text": "A requirement for November lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q34",
+      "text": "There are 11 unclosed open questions, with additional questions referenced in a separate link not included in the current review notes; specifically, escalation triggers for names containing 'book' or 'block' have no source in the PCB or Figma reference and were resolved by the trio display; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q35",
+      "text": "The claim that no role holds a subset of the required permissions today has no source in the PCB or Figma reference; the cause is the source resolved by whoever owns the role model and cite that confirmation; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q36",
+      "text": "There are 11 unclosed open questions, with additional questions referenced in a separate link not included in the current review notes; specifically, escalation triggers for names containing 'book' or 'block' have no source in the PCB or Figma reference and were resolved by the trio display; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything."
+    },
+    {
+      "id": "Q37",
+      "text": "There are 11 unclosed open questions, with additional questions referenced in a separate link not included in the current review notes; specifically, cosmetic changes in the TEV pipeline may cause issues if primary and secondary countermetric settings are one level too shallow and templateness has H4 under H3 goals and objectives.",
+      "resolved": true
+    },
+    {
+      "id": "Q41",
+      "text": "The claim that closed account members keep their personal booking.com account and can see historic bookings made through both leisure and business sites but not those made specifically through the B4B site is true; however, deleting a company will also delete all its members; the accounts service in the backend will handle allowing or blocking requests, meaning the frontend does not need to do anything; the process includes three states: 'delete underway' (notifications), 'delete successful' (logged out because the account no longer exists), and 'delete failed' (error prompt to try again)."
+    },
+    {
+      "id": "Q42",
+      "text": "The process includes three states: 'delete underway' (notifications), 'delete successful' (logged out because the account no longer exists), and 'delete failed' (error prompt to try again); the speaker clarified that there are actually four states including 'accepted in progress' and 'completed', and that a queue is required for the process."
+    },
+    {
+      "id": "Q43",
+      "text": "The requirement for a deferred placeholder does not follow the template's rule three format."
+    },
+    {
+      "id": "Q48",
+      "text": "There is a risk of version drift if the approved PRD content is merged into the original PRD, as the original document may not be updated for subsequent changes, leading to inconsistencies between the two versions."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions."
+    },
+    {
+      "id": "T2",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday."
+    },
+    {
+      "id": "T3",
+      "text": "The initial migration plan targeted 312,000 active companies in the first wave, but the total number has since grown to approximately 900,000, with the remaining companies to be handled later."
+    },
+    {
+      "id": "T4",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0."
+    },
+    {
+      "id": "T5",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features."
+    },
+    {
+      "id": "T6",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions."
+    },
+    {
+      "id": "T7",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD."
+    },
+    {
+      "id": "T8",
+      "text": "The speaker used an agent tool to close 12 open questions from the original PRD, noting that the first 12 were finalized before being sent, while new unique IDs have been raised, and they intend to start reading from the first item."
+    },
+    {
+      "id": "T9",
+      "text": "The initial migration plan targeted 312,000 active companies in the first wave, but the total number has since grown to approximately 900,000, with the remaining companies to be handled later; the scope has now expanded to include approximately 1.8 million companies, which will delay the completion of the migration but does not change the overall scope of the work."
+    },
+    {
+      "id": "T10",
+      "text": "The initial migration plan targeted 312,000 active companies in the first wave, but the total number has since grown to approximately 900,000, with the remaining companies to be handled later; the scope has now expanded to include approximately 1.8 million companies, which will delay the completion of the migration but does not change the overall scope of the work; from a non-functional requirements perspective, the scope is defined as over one million users or organizations."
+    },
+    {
+      "id": "T11",
+      "text": "The initial migration plan targeted 312,000 active companies in the first wave, but the total number has since grown to approximately 900,000, with the remaining companies to be handled later; the scope has now expanded to include approximately 1.8 million companies, which will delay the completion of the migration but does not change the overall scope of the work; from a non-functional requirements perspective, the scope is defined as over one million users or organizations, and the numbers used for planning are rounded company-level estimates as most entities are single-user companies."
+    },
+    {
+      "id": "T12",
+      "text": "The initial migration plan targeted 312,000 active companies in the first wave, but the total number has since grown to approximately 900,000, with the remaining companies to be handled later; the scope has now expanded to include approximately 1.8 million companies, which will delay the completion of the migration but does not change the overall scope of the work; from a non-functional requirements perspective, the scope is defined as over one million users or organizations, and the numbers used for planning are rounded company-level estimates as most entities are single-user companies; the speaker noted that while the exact company count is not critical to the scope definition, the increase to over 1.8 million companies may affect API call times due to the larger search volume required."
+    },
+    {
+      "id": "T13",
+      "text": "The speaker noted that while the exact company count is not critical to the scope definition, the increase to over 1.8 million companies may affect API call times due to the larger search volume required; the team confirmed the previous count was stale and updated the PRD to reflect over one million companies."
+    },
+    {
+      "id": "T15",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter."
+    },
+    {
+      "id": "T16",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them."
+    },
+    {
+      "id": "T17",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday rather than Monday and will only cover the first two boxes (logo and text) in frame 1, excluding the upload and delete features; the bottom two boxes are proposed as P1 to test performance, as all current items are currently marked as P0; the speaker aims to show that PMs do not need to write extensive documentation if they can define the initial core features; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them; AB Smartly is out of scope for the current experiment."
+    },
+    {
+      "id": "T19",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively."
+    },
+    {
+      "id": "T20",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope."
+    },
+    {
+      "id": "T21",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker is verifying if a specific out-of-scope item exists in the executive summary or B4B experience scope, and if not, plans to merge it into an 'out of scope' section using an agent tool."
+    },
+    {
+      "id": "T25",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker noted that a requirement for November 26th lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process."
+    },
+    {
+      "id": "T38",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker noted that a requirement for November 26th lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them; AB Smartly is out of scope for the current experiment; sections owned by engineering is a heading the template doesn't define and should be folded into the existing opening note rather than a standalone heading; the speaker will confirm if this is a template issue or if it came through the new PRD but will leave that with James to deal with; three source rows are unfilled template placeholder text."
+    },
+    {
+      "id": "T44",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker noted that a requirement for November 26th lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them; AB Smartly is out of scope for the current experiment; sections owned by engineering is a heading the template doesn't define and should be folded into the existing opening note rather than a standalone heading; the speaker will confirm if this is a template issue or if it came through the new PRD but will leave that with James to deal with; three source rows are unfilled template placeholder text; James discussed moving notes to the BR column and board, noting that the current discussion concerns template stuff, specifically cause summaries and sections added beyond the template's expectations."
+    },
+    {
+      "id": "T45",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker noted that a requirement for November 26th lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them; AB Smartly is out of scope for the current experiment; sections owned by engineering is a heading the template doesn't define and should be folded into the existing opening note rather than a standalone heading; the speaker confirmed that sections added beyond the template should be folded into the opening note instead of being standalone headings; the speaker clarified that non-functional requirements like accessibility and security are given, while multi-tenancy isolation is under discussion."
+    },
+    {
+      "id": "T47",
+      "text": "Meeting participants agreed to use a Google Doc link instead of an MD file for easier readability, with the option to convert the document later; the speaker will not review the generated PRD but will focus on open questions; the initial demo is scheduled for Monday and will only cover the view-only part of the PID, specifically the ability to modify the name, as the scope is being handled iteratively; the speaker clarified that for the demo, the BRDA data 01 requirement and the agent market feature are out of scope; the speaker noted that a requirement for November 26th lacks source documentation in PCB or Figma and will be moved to P1, as the underlying logic already exists in the delete process; the speaker noted that engineering capacity exceeds business management (BM) capacity, suggesting a focus on engineering or agent-driven solutions; the speaker used an agent tool to close 12 open questions from the original PRD; the cause of issues lies in the source data (PRD, trio session, or program), and inline citations should be added next to the first mention of each AB Smartly specific parameter; the speaker noted that the reduced scope document sent previously lacked specific AB Smartly criteria, while the larger PRD lists them; AB Smartly is out of scope for the current experiment; sections owned by engineering is a heading the template doesn't define and should be folded into the existing opening note rather than a standalone heading; the speaker confirmed that sections added beyond the template should be folded into the opening note instead of being standalone headings; the speaker clarified that non-functional requirements like accessibility and security are given, while multi-tenancy isolation is under discussion; the speaker raised a question about whether the final PRD needs to be reviewed against the original one, noting that the current PRD is in a rejected state."
+    },
+    {
+      "id": "T49",
+      "text": "Final PRDs should undergo a quick review process by the lead PM to ensure confidence, though a formalized process is not strictly required at this stage."
+    },
+    {
+      "id": "T50",
+      "text": "Final PRDs should undergo a quick review process by the lead PM to ensure confidence, though a formalized process is not strictly required at this stage; the final approved PRD will be sent to all stakeholders for review, after which engineering will generate Jira tickets and specs, and the workflow will be explained to Lily and Craig on Monday."
+    },
+    {
+      "id": "T51",
+      "text": "The speaker will explain the revised plan on Monday morning, acknowledging that further open questions may arise and requiring adjustments."
+    }
+  ],
+  "asked": [],
+  "next_id": 52
+}

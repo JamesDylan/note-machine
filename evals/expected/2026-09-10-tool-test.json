@@ -1,0 +1,7 @@
+{
+  "must_capture": [
+    {"name": "whisper model bumped from base to small", "any_of": ["model size", "small", "WISPR", "whisper"]},
+    {"name": "live notes not updating (the bug being narrated)", "any_of": ["not being updated", "not updating", "not updated"]},
+    {"name": "action to ask Claude / investigate why notes stopped", "any_of": ["investigat", "ask claude", "why the notes", "why live notes"]}
+  ]
+}

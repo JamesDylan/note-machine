@@ -1,0 +1,17 @@
+[12:04:09] Okay, this is a new meeting test. James is here.
+[12:04:25] Changes that we've made are we've bumped up the WISPR model size to small.in instead of base.  The weights are already downloaded and cached, speed should be a non-issue.
+[12:04:39] Sydney is updated to match as well. We've mentally ticked this off against the phase 2 in the plan.md, but we actually need to update the document specifically.
+[12:04:52] Let's take a look at the live notes. So live notes is not being updated.
+[12:05:05] What's the time now, 12.03, so there's this live note, which is also not updated yet.
+[12:05:19] The only topic note I can see is model size selection.
+[12:05:32] One item to go back and see why Live Notes is not being updated.
+[12:05:45] Hey, Note Machine, what is the capital of Texas?
+[12:06:03] The capital of Texas is Austin.
+[12:06:16] And then updated the document.
+[12:06:29] Still not an open question about why the live meeting notes are not being updated.  Hey note machine, please add an action.
+[12:06:53] To ask Claude why the notes are not being updated.
+[12:07:06] Even after asking directly, the action has not yet been updated.  There's something going on. The asked questions are working, the topic notes start...
+[12:07:19] They started working, but they are no longer there.
+[12:07:32] This meeting may reference these terms and acronyms.
+[12:07:45] Stop the meeting.
+[12:07:57] Hey, Note Machine, please stop recording.

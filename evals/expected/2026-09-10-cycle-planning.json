@@ -1,0 +1,10 @@
+{
+  "must_capture": [
+    {"name": "survey happening before the 11:00 meeting", "any_of": ["survey"]},
+    {"name": "async recorded video walkthroughs as a cycle planning alternative", "any_of": ["video", "record"]},
+    {"name": "cycle planning format under review", "any_of": ["cycle plan"]},
+    {"name": "product board as the source instead of slide decks", "any_of": ["product board"]},
+    {"name": "PMs engaging engineering managers for the storyline", "any_of": ["engineering manager", "engineering team", " EM "]},
+    {"name": "communication plan early next week", "any_of": ["next week"]}
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "summary": "The meeting refined the AI agent workflow for PR creation, addressed GitHub access issues, and discussed integrating tax/legal features and competitor insights into the product roadmap.",
+  "attendees": [
+    "James",
+    "Jacqui"
+  ],
+  "decisions": [
+    {
+      "id": "D9",
+      "text": "Agreed to rely on experts for high-risk tasks while allowing AI agents to handle low-risk experiments like ticket creation, error messaging updates, and PR generation; checkout and legal entity features will launch simultaneously despite payment tokenization dependencies, proceeding with independent workstreams if teams communicate properly."
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A4",
+      "text": "Engineers to test the proposed email solution, updating the data set and ensuring clean error messaging for developers."
+    },
+    {
+      "id": "A39",
+      "text": "Speaker to focus on executing tasks that deliver actual value, removing low-impact training courses."
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q56",
+      "text": "Speaker acknowledges tracking and measuring the goal is challenging but still finds it worthwhile, noting they handle tracking, measurement, and meeting notes.",
+      "resolved": true,
+      "answer": "Resolved: The speaker acknowledges tracking and measuring goals is challenging due to limited face time and variable meeting styles, but still finds the goal worthwhile."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "James and Jacqui noted that organizational hierarchy is dictated by admirals, while AI agents handle low-risk tasks like ticket creation and PR generation, and the team plans to move beyond internal boundaries to adopt unwritten practices.",
+      "group": "AI Workflow & Access"
+    },
+    {
+      "id": "T2",
+      "text": "PR created for emails about failed rights; user asked Stephen to create the PR on their machine due to GitHub access restrictions.",
+      "group": "AI Workflow & Access"
+    },
+    {
+      "id": "T6",
+      "text": "High complexity around telemetry and other factors is expected to delay resolution of the current problem.",
+      "group": "AI Workflow & Access"
+    },
+    {
+      "id": "T10",
+      "text": "The team plans to integrate tax/legal features with the Company Haruki release and build a monthly insights tool using competitor data and CSAT, noting limited current CSAT feedback but identifying Perf and Avan as key users.",
+      "group": "Product Roadmap & Insights"
+    },
+    {
+      "id": "T23",
+      "text": "To attract larger companies, the team will use in-product messaging via Pendo and demonstrate product usage across all user spaces, sharing screenshots and prototypes with potential customers to gather feedback.",
+      "group": "Product Roadmap & Insights"
+    },
+    {
+      "id": "T27",
+      "text": "James recalled that when the hotel budget feature was first launched, the team anticipated only 4% of customers would utilize it.",
+      "group": "Product Roadmap & Insights"
+    },
+    {
+      "id": "T28",
+      "text": "Solo users do not require budget features, but the feature should be built for completeness; the challenge is identifying companies that find value in it.",
+      "group": "Product Roadmap & Insights"
+    },
+    {
+      "id": "T31",
+      "text": "Helena is developing protocols and beginning to assemble a new custom advisory group."
+    },
+    {
+      "id": "T32",
+      "text": "The speaker suggests sharing information with a very large company to gather feedback."
+    },
+    {
+      "id": "T33",
+      "text": "Sharing designs, prototypes, or future ideas with a large company to gather feedback on potential use cases."
+    },
+    {
+      "id": "T34",
+      "text": "Due to senior engineer shortages and limited face time with key stakeholders, the team will coordinate independent workstreams to launch features without waiting for dependencies, focusing on tangible deliverables and removing low-value training courses."
+    },
+    {
+      "id": "T40",
+      "text": "Tuesday is available to be consulted for ideas, though everyone is currently running late; the speaker notes that meeting styles and types limit their ability to re-identify themselves, and Drew asked if they can drive a specific tool if needed."
+    },
+    {
+      "id": "T44",
+      "text": "The speaker suggests creating a rollout plan for the discussed features."
+    },
+    {
+      "id": "T48",
+      "text": "The speaker proposes working together on specific parts of a project or adjusting feedback frequency to better support the listener's role."
+    },
+    {
+      "id": "T49",
+      "text": "The speaker emphasizes the importance of ensuring tasks result in clear, tangible deliverables to define completion."
+    },
+    {
+      "id": "T51",
+      "text": "The speaker inquires about the current management of RA's project and the product board."
+    },
+    {
+      "id": "T52",
+      "text": "The speaker suggests that once a feature or process becomes established, the listener should take ownership of it."
+    },
+    {
+      "id": "T55",
+      "text": "The speaker is struggling with measuring a specific goal, acknowledging that the goal is valid but the measurement is difficult."
+    },
+    {
+      "id": "T60",
+      "text": "The EOS client work was completed yesterday, with the date appearing as September 9th and 10th due to time zone differences."
+    },
+    {
+      "id": "T68",
+      "text": "Using up the entire budget within the first week and a half is problematic, and setting up EOS clients in a local environment is a significant challenge."
+    },
+    {
+      "id": "T61",
+      "text": "Using up the entire budget within the first week and a half is problematic, and setting up EOS clients in a local environment is a significant challenge."
+    },
+    {
+      "id": "T62",
+      "text": "The speaker suggests that increasing usage limits is pointless if the process for people to actually use the feature is not in place."
+    },
+    {
+      "id": "T63",
+      "text": "The PR creation process consumes 80% of the token budget, suggesting actual value lies in regular usage rather than setup."
+    },
+    {
+      "id": "T64",
+      "text": "The speaker mentions completing a prototype yesterday and notes that usage should be tracked in this context as well."
+    },
+    {
+      "id": "T65",
+      "text": "The speaker suggests that the team's next priority is to get everyone up to speed with Claude."
+    },
+    {
+      "id": "T66",
+      "text": "The speaker discusses potential integrations with Claude and other tools, mentioning Rojo and Snowflake, and notes uncertainty about when certain features can be used."
+    },
+    {
+      "id": "T67",
+      "text": "The speaker discusses the potential utility of AI-generated PRDs but notes uncertainty about the team's readiness to adopt this approach."
+    },
+    {
+      "id": "T69",
+      "text": "Product team is delaying five specific items and has been unhelpful in resolving the issue."
+    },
+    {
+      "id": "T70",
+      "text": "The speaker warns against a specific approach to handling messages and suggests providing context to help others understand B4B, noting they lack familiarity with it."
+    }
+  ],
+  "asked": [],
+  "next_id": 71
+}
