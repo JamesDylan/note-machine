@@ -1,0 +1,564 @@
+Resuming session: 20260914-101147-james-lilly-1-on-1 (run with --new to start a fresh one instead)
+
+######## 2026-09-10-cycle-planning / A-update ########
+  [merge] 1 op(s). gist: The discussion is geared towards engineering folks currently in flux.
+  [merge] 1 op(s). gist: Forcing mechanisms are affecting both partners and engineering managers.
+  [merge] 1 op(s). gist: Forcing partners to sync on forward leadership is valuable.
+  [merge] 1 op(s). gist: Product managers are being directed to engage partners on leadership level.
+  [merge] 1 op(s). gist: The presentation deck is too heavy and needs to be revisited.
+  [merge] 1 op(s). gist: Testing the product board format to avoid copy-paste errors.
+  [merge] 1 op(s). gist: The product board format needs to include exercises to strengthen thinking skills.
+  [merge] 1 op(s). gist: The team discussed creating a first slide defining goals, success metrics, and current lifecycle status for partners.
+  [merge] 1 op(s). gist: Engineering teams must present from their perspective, requiring them to synthesize lessons learned with product managers and engineering managers.
+  [merge] 1 op(s). gist: The team needs an end-to-end storyline for the product board.
+  [merge] 1 op(s). gist: The team delivered the new cycle planning deck with a clear first slide on goals and next steps.
+  [merge] 1 op(s). gist: Proposed testing two versions of the cycle planning format.
+  [merge] 1 op(s). gist: Part-out managers must follow the new cadence and gather information from engineer managers for V2.
+  [merge] 1 op(s). gist: PM Group will conduct a think-out session to clarify the product board storyline.
+  [merge] 0 op(s). gist: Speakers encourage participants to use product boards as reference while answering specific questions.
+  [merge] 0 op(s). gist: Speaker suggests using board critiques to deepen thinking and practice.
+  [merge] 1 op(s). gist: Each PM should record a short video explaining their cycle plan storyline.
+  [merge] 0 op(s). gist: Recording scripts will be shared with engineering managers and stakeholders.
+  [merge] 2 op(s). gist: Testing video recording and slide deck formats for the product board.
+  [op downgraded to add] update with unknown id: {'op': 'update', 'section': 'action_items', 'id': 'A15', 'text': 'Test video recording as alternative to slide deck.'}
+  [merge] 1 op(s). gist: Testing video recording as an alternative to slide decks.
+  [merge] 1 op(s). gist: The goal is visibility into work without forcing people to sit through meetings.
+  [merge] 1 op(s). gist: The goal is to improve product thinking by focusing on small value slices.
+  [merge] 0 op(s). gist: Speaker suggests video format but recalls past dislike of team videos.
+  [op downgraded to add] update with unknown id: {'op': 'update', 'section': 'action_items', 'id': 'T15', 'text': 'Test video recording as alternative to slide deck.'}
+  [add suppressed] duplicate of A17
+  [merge] 2 op(s). gist: Video format is preferred over slide decks due to lower effort and better absorption.
+  [merge] 0 op(s). gist: Video recording is more valuable once the mental model is practiced.
+  [merge] 0 op(s). gist: The team has two weeks to prepare for cycle planning on the 20th.
+  [merge] 0 op(s). gist: Team must complete the survey quickly for insights.
+  [merge] 1 op(s). gist: Speakers agreed to revisit the cycle plan storyline deeply.
+  [merge] 1 op(s). gist: Test a new version of the cycle plan that provides confident visibility and clear dependency call-outs.
+  [merge] 1 op(s). gist: Preserve pause and reflection stories in the objective level.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T15', 'answer': 'Merged with A17; testing video recording as an alternative to slide decks.'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T1', 'T2', 'T3', 'T4'], 'title': 'Forcing Mechanisms'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T5', 'T6', 'T16'], 'title': 'Slide Deck Format'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T9', 'T10', 'T20'], 'title': 'End-to-End Storyline'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T12', 'T18', 'T21'], 'title': 'Cadence and Visibility'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T13', 'T19', 'T22'], 'title': 'Product Thinking Exercises'}
+Editorial pass: 2 edit(s) applied (22 -> 23 items).
+  [merge] 1 op(s). gist: Proposed a lighter weight presentation format for engineering managers.
+  [merge] 1 op(s). gist: Two slides per PM are confirmed for the new format.
+  [merge] 1 op(s). gist: The speaker suggests creating a separate practice run to help teams construct a clear information spine before jumping into detailed storytelling.
+  [merge] 1 op(s). gist: Updated slides and cycle decks are easier when information is in Giro.
+  [merge] 1 op(s). gist: Aligning cycle planning and Francis's separate update cadence is suggested to reduce unnecessary updates.
+  [merge] 1 op(s). gist: Engineering leadership is forced to report on low-level information multiple times weekly.
+  [merge] 0 op(s). gist: Speaker expresses frustration with excessive reporting and lack of forward-looking visibility.
+  [merge] 1 op(s). gist: PMs will present to engineering partners who remain in the loop as an audience.
+  [merge] 1 op(s). gist: Teams struggle with gathering information for decks, which should be a default process.
+  [merge] 1 op(s). gist: PMs must clearly communicate their sync status with the team and know when to ask for help.
+  [merge] 1 op(s). gist: PMs must surface engineering team insights to understand their viewpoint.
+  [merge] 1 op(s). gist: Learning insights are currently lost and not being applied effectively.
+  [merge] 0 op(s). gist: Aaron discusses connecting teams to exponential value delivery lessons learned.
+  [merge] 0 op(s). gist: Participants noted that the new format is useful because it allows people to work from home.
+  [merge] 0 op(s). gist: Team members feel recognized and acknowledged for their hard work.
+  [merge] 1 op(s). gist: Attendees are not fully engaged during the presentation.
+  [merge] 0 op(s). gist: Attendees should not spend time listening to the dinner recording.
+  [merge] 1 op(s). gist: PMs drive their story through ownership of what they look after.
+  [merge] 0 op(s). gist: The meeting decided to pause further discussion on the current topic.
+  [merge] 0 op(s). gist: Speaker asks colleagues to consider the new deck format.
+  [merge] 1 op(s). gist: The team will finalize the communication skeleton before sharing it with PMs.
+  [merge] 1 op(s). gist: Communicate the plan early next week to allow preparation time.
+  [merge] 1 op(s). gist: Teams are struggling to fill their backlogs.
+  [merge] 1 op(s). gist: Cycle planning is shifting focus due to roadmap changes.
+  [merge] 0 op(s). gist: Speaker raises uncertainty about next steps to be decided later.
+  [merge] 1 op(s). gist: Forcing standards helps pin down logic despite time cost.
+  [merge] 1 op(s). gist: Speaker will complete a survey before their 11 AM meeting.
+  [merge] 1 op(s). gist: PMs send completed surveys for feedback before the next call.
+  [add suppressed] duplicate of D23
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T15', 'answer': 'Merged with D23; video testing is a confirmed decision.'}
+Editorial pass: 10 edit(s) applied (41 -> 44 items).
+
+######## 2026-09-10-cycle-planning / B-add-only ########
+  [merge] 1 op(s). gist: The discussion is geared towards engineering folks currently in flux.
+  [merge] 1 op(s). gist: Forcing mechanisms are affecting both partners and engineering managers.
+  [merge] 1 op(s). gist: Forcing partners to sync on forward leadership is valuable.
+  [merge] 1 op(s). gist: Product managers are being forced to engage partners at the leadership level.
+  [merge] 1 op(s). gist: The presentation deck is too heavy and needs to be revisited.
+  [merge] 1 op(s). gist: Testing the product board format to avoid copy-paste errors.
+  [merge] 1 op(s). gist: The speaker emphasizes the need to strengthen thinking skills through product board exercises.
+  [merge] 1 op(s). gist: The team is defining the spine of the first slide by identifying what has moved to CNC's lifecycle and what is currently in motion.
+  [merge] 2 op(s). gist: Presentations must cover engineering lessons learned and changes to force deeper analysis.
+  [merge] 1 op(s). gist: The team needs to create an end-to-end storyline for the product board.
+  [merge] 1 op(s). gist: The team agreed the new cycle planning deck's first slide was effective and should be expanded.
+  [merge] 1 op(s). gist: Proposed two versions of the cycle planning format: a simple one for EMs and a full one for all PMs and EMs.
+  [merge] 1 op(s). gist: Part-out managers must follow the new cadence and gather information from engineering managers.
+  [merge] 1 op(s). gist: PM Group will have a think-out session to clarify the storyline before presenting.
+  [merge] 0 op(s). gist: Speakers encourage participants to use product boards to tell stories and answer key questions.
+  [merge] 0 op(s). gist: Speaker plans to ask questions to deepen thinking and critique the board process.
+  [merge] 1 op(s). gist: Participants are assigned to record a short video explaining their cycle plan storyline.
+  [merge] 0 op(s). gist: Recording scripts will be shared with engineering managers and stakeholders.
+  [add suppressed] duplicate of A16
+  [merge] 0 op(s). gist: Test recording the cycle plan via video or slide deck.
+  [merge] 0 op(s). gist: The speaker suggests a less drastic change to reduce shock for the broader group.
+  [merge] 0 op(s). gist: The goal is to provide visibility into partner work without forcing mandatory attendance.
+  [merge] 0 op(s). gist: The team aims to improve product thinking by identifying value slices.
+  [merge] 1 op(s). gist: Speaker suggests a video format similar to previous engineering team videos.
+  [merge] 1 op(s). gist: The previous cycle planning format was too difficult and time-consuming for participants.
+  [merge] 0 op(s). gist: The speaker believes the new format will become easy and valuable with practice.
+  [merge] 0 op(s). gist: The team has two weeks to prepare for cycle planning on the 20th.
+  [merge] 0 op(s). gist: Team needs to complete the survey quickly for insights.
+  [merge] 1 op(s). gist: Speakers agreed to revisit the cycle plan storyline deeply.
+  [merge] 1 op(s). gist: Testing a new cycle plan version with near-term visibility and clear dependency call-outs.
+  [merge] 0 op(s). gist: The new cycle plan format aims to preserve reflection and stories while achieving visibility and transparency.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T18', 'answer': 'The previous cycle planning format was too difficult and heavy.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T20', 'answer': 'The new version must include visibility, dependency call-outs, and lessons learned.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T16', 'answer': 'PMs will record short videos explaining the cycle plan storyline.'}
+Editorial pass: 5 edit(s) applied (20 -> 20 items).
+  [merge] 1 op(s). gist: Proposed a lighter weight presentation format for engineering managers.
+  [merge] 1 op(s). gist: PMs will create two slides per team covering delivery info and learning.
+  [merge] 1 op(s). gist: Team needs to practice constructing a clear information spine before tackling complex topics.
+  [merge] 0 op(s). gist: Speaker notes that current slide decks are easy to create when data is available in Giro.
+  [merge] 1 op(s). gist: Aligning cycle planning with Francis's separate update cadence is suggested to reduce unnecessary updates.
+  [merge] 1 op(s). gist: Engineering leadership is forced to report on low-level information multiple times weekly.
+  [merge] 0 op(s). gist: Speaker expresses frustration with excessive reporting and lack of forward-looking visibility.
+  [merge] 1 op(s). gist: PMs will present cycle plans while engineering teams attend as an audience.
+  [merge] 1 op(s). gist: Teams should provide information for the deck by default rather than during cycle planning.
+  [merge] 1 op(s). gist: PMs must ensure team sync and address uncertainties with their engineering manager.
+  [op skipped] resolve with unknown id: {'op': 'resolve', 'section': 'open_questions', 'id': 'T28'}
+  [merge] 0 op(s). gist: PMs must ensure team sync and address uncertainties with their engineering manager.
+  [merge] 1 op(s). gist: Learning insights are currently being lost because they disappear after being shared.
+  [merge] 1 op(s). gist: Aaron notes that teams are struggling to connect the dots between learning and exponential value delivery.
+  [merge] 0 op(s). gist: Participants noted that the new format is useful because it helps people feel at home.
+  [merge] 0 op(s). gist: Team members feel recognized for their hard work.
+  [merge] 0 op(s). gist: The speaker notes that people are not listening to the cycle plan.
+  [merge] 0 op(s). gist: Speaker suggests recording the dinner for later review.
+  [merge] 0 op(s). gist: PMs drive their story through ownership of their teams.
+  [merge] 0 op(s). gist: The meeting decided to pause discussion on the smallest items.
+  [merge] 0 op(s). gist: Speaker is considering the new deck format with a colleague.
+  [merge] 0 op(s). gist: The skeleton of the communication makes expectations clear.
+  [merge] 0 op(s). gist: Cycle plan storyline communication is scheduled for early next week.
+  [merge] 0 op(s). gist: Teams are struggling to fill their backlogs.
+  [merge] 1 op(s). gist: Next cycle planning may need a name change due to significant changes.
+  [merge] 0 op(s). gist: Speaker is uncertain about the next step for the cycle plan.
+  [merge] 0 op(s). gist: Forcing standards helps pin down logic despite time cost.
+  [merge] 1 op(s). gist: Speaker will complete a survey before their 11 AM meeting.
+  [merge] 0 op(s). gist: Speaker requested feedback on a completed survey before the next call.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'A32', 'answer': 'Speaker completed the survey before the 11 AM meeting.'}
+  [edit skipped] malformed merge: {'op': 'merge', 'section': 'discussion', 'ids': ['T1', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12', 'T13', 'T14', 'T15', 'T17', 'T18', 'T19', 'T20', 'T21', 'T23', 'T24', 'T25', 'T26', 'T27', 'T28', 'T29', 'T30', 'T31'], 'title': 'Cycle Planning Improvements'}
+Editorial pass: 5 edit(s) applied (32 -> 33 items).
+
+######## 2026-09-10-cycle-planning / C-supersede ########
+  [merge] 1 op(s). gist: The discussion is geared towards engineering folks currently in flux.
+  [merge] 1 op(s). gist: Forcing mechanisms are affecting both partners and engineering managers.
+  [merge] 1 op(s). gist: Forcing partners to sync on forward leadership is valuable.
+  [merge] 1 op(s). gist: Product managers are being directed to engage partners at the leadership level.
+  [merge] 1 op(s). gist: The presentation deck is too heavy and needs to be revisited.
+  [merge] 1 op(s). gist: Testing the product board format to avoid copy-paste errors.
+  [merge] 1 op(s). gist: The speaker emphasizes the need to strengthen thinking skills through exercises within the product board format.
+  [merge] 1 op(s). gist: The team is defining the spine of the first slide by identifying what has moved to CNC's lifecycle and what is currently in motion.
+  [merge] 1 op(s). gist: Presentations must cover engineering lessons learned to force deeper analysis.
+  [merge] 1 op(s). gist: The team needs to create an end-to-end storyline for the product board.
+  [merge] 1 op(s). gist: The team found the new cycle planning deck's first slide effective for defining goals and next steps.
+  [merge] 1 op(s). gist: Proposed two versions of the cycle planning format: one simplified for engineering managers and one including all PMs and engineering managers.
+  [merge] 1 op(s). gist: V2 cadence requires partners to sync with engineering managers.
+  [merge] 1 op(s). gist: PM Group will lead a think-out session to clarify the product board storyline.
+  [merge] 0 op(s). gist: Speakers encourage participants to use product boards as reference points to answer key questions during discussions.
+  [merge] 0 op(s). gist: Speaker plans to ask questions to deepen thinking and critique the board format.
+  [merge] 1 op(s). gist: Each partner records a short video explaining their cycle plan storyline.
+  [merge] 0 op(s). gist: Recording scripts will be shared with engineering managers and stakeholders to validate value.
+  [merge] 2 op(s). gist: Testing a one-way video recording format or a revamped slide deck for the product board.
+  [merge] 0 op(s). gist: The speaker suggests a less shocking change to reduce impact on the broader group.
+  [merge] 1 op(s). gist: The goal is to provide visibility into partners' work without forcing them to attend meetings.
+  [merge] 0 op(s). gist: The goal is to improve product thinking by focusing on small value slices.
+  [merge] 0 op(s). gist: Speaker suggests a specific video format but recalls past resistance to team sharing videos.
+  [merge] 1 op(s). gist: The current cycle planning format is too difficult and overwhelming for partners.
+  [merge] 0 op(s). gist: Practice makes the product board storyline creation easier over time.
+  [merge] 1 op(s). gist: The team has two weeks to prepare for cycle planning scheduled on the 20th.
+  [merge] 0 op(s). gist: The team needs to conclude quickly and complete the survey for insights.
+  [merge] 1 op(s). gist: Speakers agreed to revisit the cycle plan storyline deeply after today's discussion.
+  [merge] 1 op(s). gist: Testing a new cycle plan format to provide confident near-term visibility and clear dependency call-outs.
+  [merge] 0 op(s). gist: The goal is to preserve pause, reflection, and storytelling while achieving transparency.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T19', 'answer': 'The current cycle planning format is too difficult for partners and needs simplification.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T20', 'answer': 'The cycle planning preparation timeline is two weeks, requiring quick conclusions.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T13', 'answer': 'V2 cadence requires partners to sync with engineering managers on forward leadership.'}
+Editorial pass: 5 edit(s) applied (22 -> 23 items).
+  [merge] 1 op(s). gist: Proposed a lighter weight presentation format for engineering managers.
+  [merge] 1 op(s). gist: Product managers will create two slides per partner covering delivery team learning and key information.
+  [merge] 1 op(s). gist: The team agreed to use a clear information spine to help partners practice the product board storyline.
+  [merge] 1 op(s). gist: The speaker notes that having information in Giro makes cycle planning easy and suggests creating a slide decker to automate this.
+  [merge] 1 op(s). gist: Aligning engineering manager updates with cycle planning to reduce redundant work.
+  [merge] 1 op(s). gist: Engineering leadership is forced to report on low-level information multiple times weekly.
+  [merge] 1 op(s). gist: The speaker is frustrated with the current cycle planning process requiring excessive reporting.
+  [merge] 1 op(s). gist: Partners remain in the loop as an audience for a shorter cycle planning meeting led by PMs.
+  [merge] 1 op(s). gist: Capturing engineering information by default is necessary to reduce cycle planning pain.
+  [merge] 1 op(s). gist: PMs must be able to confirm team sync status and address uncertainties with their engineering manager.
+  [merge] 1 op(s). gist: PMs must surface engineering team insights to understand their viewpoint.
+  [merge] 1 op(s). gist: Learning insights are currently lost and not being applied effectively.
+  [merge] 0 op(s). gist: Aaron notes that connecting learned lessons to exponential value delivery is interesting.
+  [merge] 0 op(s). gist: The cycle planning format helps partners feel more at home.
+  [merge] 0 op(s). gist: Partners feel recognized for their recent work.
+  [merge] 0 op(s). gist: Partner engagement is low due to poor listening and lack of focus.
+  [merge] 1 op(s). gist: The speaker suggests recording a dinner session for visibility.
+  [merge] 0 op(s). gist: PMs drive their story through ownership of their teams.
+  [merge] 0 op(s). gist: The gap between B4B and PMs is ten days.
+  [merge] 0 op(s). gist: Speaker will review the deck and asks others to do the same.
+  [merge] 0 op(s). gist: The skeleton structure clarifies roles and expectations for the PM.
+  [merge] 1 op(s). gist: The team agreed to solidify communication early next week to avoid last-minute rushes.
+  [merge] 0 op(s). gist: Teams are struggling to fill their backlogs.
+  [merge] 1 op(s). gist: Cycle planning focus should shift due to recent roadmap changes.
+  [merge] 0 op(s). gist: Speaker is uncertain about the next step for the cycle planning process.
+  [merge] 1 op(s). gist: Forcing standards in cycle planning logic is worth the time waste.
+  [merge] 1 op(s). gist: Speaker will complete a survey before their 11 AM meeting.
+  [merge] 1 op(s). gist: Speaker asks partners to complete a form and follow up with feedback.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'A40', 'answer': 'Speaker completes survey before 11 AM meeting.'}
+Editorial pass: 8 edit(s) applied (41 -> 44 items).
+
+######## 2026-09-10-migration-deltas / A-update ########
+  [merge] 1 op(s). gist: The meeting addresses gaps in company migration for the first experiment launch.
+  [add suppressed] duplicate of T1
+  [merge] 0 op(s). gist: The migration gap for the first experiment cohort is increasing.
+  [add suppressed] duplicate of T1
+  [merge] 0 op(s). gist: Company migration target increased to 1.4 million companies.
+  [add suppressed] duplicate of T1
+  [merge] 0 op(s). gist: Shruthi needs a week to run ETL and validate companies before the experiment launch.
+  [merge] 1 op(s). gist: Speaker asks if company migration will impact product experience.
+  [merge] 1 op(s). gist: A subset of companies and members will be selected one week before the first experiment launch.
+  [merge] 1 op(s). gist: EOS data will differ from SOL on day one due to changing company information.
+  [merge] 1 op(s). gist: Proposed flipping the experiment start to align with ETL migration.
+  [merge] 1 op(s). gist: Dual reason rights will be non-existent after migration.
+  [add suppressed] duplicate of T5
+  [merge] 1 op(s). gist: Experiment launch timing and data readiness concerns raised.
+  [merge] 1 op(s). gist: SOL is the master, but alerting and dashboards will show mismatches.
+  [merge] 1 op(s). gist: Hourly reconciliation process updates platform with SOL data changes.
+  [merge] 0 op(s). gist: Speaker is unsure about hearing something and plans to address it today.
+  [merge] 1 op(s). gist: Speaker lacks confidence in previous answers and requests a specific document.
+  [merge] 1 op(s). gist: Scenarios are documented but a formal document is needed for testing.
+  [merge] 0 op(s). gist: Speaker asks Rimi to speak up as the room is too quiet.
+  [merge] 1 op(s). gist: Truthies team will handle reconciliation and push changes to the ledger.
+  [merge] 1 op(s). gist: Speaker suggests testing the migration in staging.
+  [merge] 1 op(s). gist: Testing in lower environments verifies concerns before production.
+  [merge] 0 op(s). gist: Kasey's absence prevents immediate reassurance on the institution's answers.
+  [add suppressed] duplicate of Q10
+  [merge] 0 op(s). gist: Team verbally listed cases to consider for documentation.
+  [merge] 0 op(s). gist: Revisiting use cases for the migration extract process.
+  [merge] 0 op(s). gist: An invite experiment is promoting registered users by company.
+  [merge] 1 op(s). gist: Product team intends to increase company usage risk, increasing delta.
+  [merge] 1 op(s). gist: Reconciliation to SOL involves dual rights flow for control users.
+  [merge] 1 op(s). gist: Reconciliation needs to be documented instead of relying on Slack messages.
+  [merge] 1 op(s). gist: Uncertainty about reconciliation mechanics prevents defining all scenarios.
+  [merge] 1 op(s). gist: A reconciler repo can score B4B experiences using AI.
+  [merge] 1 op(s). gist: Speaker suggests asking Dave to document token-related scenarios.
+  [merge] 0 op(s). gist: Speaker is uncertain about token reconciliation mechanics.
+Editorial pass: 8 edit(s) applied (20 -> 22 items).
+  [merge] 0 op(s). gist: Clear contract scope reduces reconciliation intensity.
+  [merge] 1 op(s). gist: Need documented use cases for migration and reconciliation.
+  [merge] 1 op(s). gist: Migration and reconciliation roles for edge cases are unclear.
+  [merge] 1 op(s). gist: Team assigned to document edge cases for B4B experience.
+  [merge] 1 op(s). gist: Phased loading of 1.4 million companies was considered to avoid first load complications.
+  [merge] 1 op(s). gist: Proposed moving active base to focus on high-usage companies.
+  [add suppressed] duplicate of T26
+  [merge] 0 op(s). gist: Loading 1.4 million companies will take longer than expected due to congestion.
+  [merge] 1 op(s). gist: Real production-like data is needed to measure migration impact.
+  [merge] 1 op(s). gist: Phased loading of the initial batch may cause temporary data drift.
+  [merge] 1 op(s). gist: Drift between inclusion and exclusion lists is expected due to broad company adoption.
+  [merge] 1 op(s). gist: Exclusion list cannot be entered without a winner.
+  [merge] 1 op(s). gist: Agreed to exclude customers waiting to be removed from the right side of the migration.
+  [merge] 1 op(s). gist: Companies with no login or explicit deactivation requests must be removed via a disabled script.
+  [merge] 1 op(s). gist: Accelerate the disabled cohort by scheduling a meeting with company management.
+  [merge] 1 op(s). gist: Script updates needed for company-level and member handling.
+  [merge] 1 op(s). gist: Speaker identified SOL tagging method for company selection.
+  [merge] 1 op(s). gist: Snowflake and SOL company mappings are not one-to-one.
+  [merge] 1 op(s). gist: Missing Snowflake records are limited edge cases.
+  [merge] 2 op(s). gist: DSA provides include/exclude guidance from Snowflake, while DLH notes missing data.
+  [merge] 1 op(s). gist: Admin accounts without SSO access do not need inclusion list entry.
+  [merge] 1 op(s). gist: Marjane is provisioning companies from the deactivated bucket to the migrated bucket, bringing the Snowflake table to 1.4 million records.
+  [merge] 1 op(s). gist: Admin access is currently only available in SOL.
+  [merge] 0 op(s). gist: The team confirmed a data governance system exists to handle discrepancies between sources.
+  [merge] 1 op(s). gist: Exclusion list needed for multiple legal entities in Snowflake.
+  [merge] 1 op(s). gist: Truthies team will split 1.4 million companies into two runs for single-income entities.
+  [merge] 1 op(s). gist: Migration will focus on single legal entities only.
+  [merge] 0 op(s). gist: Clarification sought on meaning of multiple legal entities.
+  [merge] 0 op(s). gist: Legal entities, countries, and currencies were used for content switching.
+  [merge] 0 op(s). gist: The speaker acknowledges a difficult situation.
+  [merge] 1 op(s). gist: Uncertainty remains regarding whether the feature is used as a language or currency tool.
+  [add suppressed] duplicate of A35
+Editorial pass: 7 edit(s) applied (45 -> 46 items).
+  [merge] 1 op(s). gist: Uncertainty exists regarding whether multiple legal entities are used for costing or currency purposes.
+  [merge] 0 op(s). gist: Managing company migration with stakeholders.
+  [merge] 1 op(s). gist: Legal entities will be added to the product using the new platform.
+  [merge] 1 op(s). gist: Multi-legal entities are needed only for companies with multiple countries.
+  [merge] 1 op(s). gist: Multi-country companies will be introduced to the legal entity concept for the first time.
+  [merge] 1 op(s). gist: Migrating single-income entities today avoids confusion if they aren't split into legal entities.
+  [merge] 1 op(s). gist: Phase three hides country/region UI, preventing users from seeing the screen.
+  [merge] 1 op(s). gist: Multiple legal entity ownership is unclear and will be deferred to phase three.
+  [merge] 1 op(s). gist: Survey questions needed for 46,000 active companies regarding setup preferences.
+  [merge] 1 op(s). gist: Experiment will stop new customer registrations with countries and regions.
+  [merge] 1 op(s). gist: Companies expecting the feature will be kept in current state to avoid delays.
+  [merge] 2 op(s). gist: Splitting companies into legal entities and targeting features via admin flags are needed before phase two.
+  [merge] 0 op(s). gist: Feature removal is impossible due to entangled dependencies.
+  [merge] 1 op(s). gist: James and Chris will discuss Delta with Keith and Richard.
+  [merge] 2 op(s). gist: QA team involvement and documentation gaps for live migration.
+  [merge] 1 op(s). gist: Documentation for token scenarios and transcript issues need to be created.
+  [merge] 0 op(s). gist: Discussion on defining migration and reconciliation use cases.
+  [merge] 2 op(s). gist: QA team to review migration concerns and document issues.
+  [merge] 0 op(s). gist: Attendees requested comments on the migration document.
+Editorial pass: 9 edit(s) applied (64 -> 64 items).
+
+######## 2026-09-10-migration-deltas / B-add-only ########
+  [merge] 1 op(s). gist: The meeting addresses gaps in companies migrated for the first experiment launch.
+  [merge] 1 op(s). gist: The single legal entity company migration cohort is increasing.
+  [merge] 1 op(s). gist: The migration target is now 1.4 million companies.
+  [merge] 1 op(s). gist: Shruthi requires one week for ETL and validation before the experiment launch.
+  [merge] 1 op(s). gist: Speaker asks if product experience will be impacted by the migration gap.
+  [merge] 1 op(s). gist: A week prior to the first experiment, a subset of companies and their members will be selected.
+  [merge] 1 op(s). gist: EOS data may differ from SOL on experiment day one.
+  [merge] 1 op(s). gist: Proposed flipping experiment launch timing to start on ETL process.
+  [merge] 1 op(s). gist: Dual reason rights will be non-existent for migrated companies.
+  [merge] 1 op(s). gist: Experiment launch order was proposed to start before migration.
+  [merge] 1 op(s). gist: SOL is the master data source; Eos mismatches will only cause alerting noise.
+  [merge] 1 op(s). gist: Hourly reconciliation updates platform data from SOL.
+  [merge] 0 op(s). gist: Speaker is unsure about hearing something and plans to address it today.
+  [merge] 1 op(s). gist: Speaker lacks confidence in current documentation regarding migration edge cases.
+  [merge] 1 op(s). gist: Documentation for migration scenarios is needed for testing.
+  [merge] 0 op(s). gist: Speaker addresses Rimi regarding threadkeeper and migration status.
+  [merge] 1 op(s). gist: Truthies team is responsible for reconciliation and pushing changes to the ledger.
+  [merge] 1 op(s). gist: Speaker mentions testing the migration process in staging.
+  [merge] 1 op(s). gist: Testing in lower environments verifies concerns before production.
+  [merge] 0 op(s). gist: Kasey's absence prevents immediate reassurance on the migration gap question.
+  [merge] 0 op(s). gist: Team listed specific migration cases to review and add to the channel.
+  [merge] 1 op(s). gist: Version 1 migration assumes perfect data verification with no deltas.
+  [merge] 0 op(s). gist: An invite experiment is promoting registered users by company.
+  [merge] 1 op(s). gist: Product team intends to increase company usage risk, creating data deltas.
+  [merge] 1 op(s). gist: Reconciliation to SOL covers the dual rights flow.
+  [merge] 1 op(s). gist: Hourly reconciliation documentation is currently missing.
+  [merge] 1 op(s). gist: Uncertainty about reconciliation mechanics hinders scenario planning.
+  [merge] 1 op(s). gist: A reconciliation mechanism using AI and business language is being used to score B4B experiences.
+  [merge] 0 op(s). gist: Speaker discusses token usage and Dave's documentation role.
+  [merge] 0 op(s). gist: Speaker is uncertain about asking for extra tokens or returning data.
+Editorial pass: 8 edit(s) applied (23 -> 23 items).
+  [merge] 0 op(s). gist: Reconciliation intensity depends on clear contract scope.
+  [merge] 1 op(s). gist: Clarification needed on migration and reconciliation use cases.
+  [merge] 1 op(s). gist: Clarification needed on migration scope versus reconciliation coverage.
+  [merge] 0 op(s). gist: Team discussed validating B4B edge cases and assigned tasks.
+  [merge] 1 op(s). gist: Phased loading of 1.4 million companies is not required.
+  [merge] 1 op(s). gist: Proposed shifting active base migration to focus on high-usage companies.
+  [merge] 0 op(s). gist: Migration loading speed varies and may cause congestion.
+  [merge] 1 op(s). gist: Real production-like data is needed to measure migration failures accurately.
+  [merge] 1 op(s). gist: Initial batch timing and data drift between points A and B need clarification.
+  [merge] 1 op(s). gist: Drift between inclusion and exclusion lists is expected due to removals.
+  [merge] 1 op(s). gist: Exclusion list stability is maintained for the 1.4 million company cohort.
+  [merge] 1 op(s). gist: Agreement reached that only preloaded companies remain on the right side post-migration.
+  [merge] 1 op(s). gist: Pre-loaded companies without registration dates must be disabled via a script.
+  [merge] 1 op(s). gist: Accelerate the disabled cohort by scheduling a meeting with company management.
+  [merge] 1 op(s). gist: Company level migration work requires additional steps beyond current user-based script.
+  [merge] 0 op(s). gist: Speaker identified SOL tagging method for company identification.
+  [merge] 1 op(s). gist: Snowflake and Soil company mappings are not one-to-one.
+  [merge] 1 op(s). gist: Missing Snowflake records are limited and fall under understandable edge cases.
+  [merge] 2 op(s). gist: DSA provides include/exclude guidance while DLH notes missing Snowflake records.
+  [merge] 0 op(s). gist: Admin accounts do not require inclusion list membership due to lack of SSO access.
+  [merge] 1 op(s). gist: Marjane is provisioning 1.4 million companies from the deactivated to the migrated bucket.
+  [merge] 1 op(s). gist: Admin access is currently only available in SOL.
+  [merge] 0 op(s). gist: The team confirmed a data governance system exists to handle discrepancies between sources.
+  [merge] 0 op(s). gist: Exclusion list usage for multiple legal entities confirmed.
+  [merge] 1 op(s). gist: 1.4 million companies will be split into two entities.
+  [merge] 1 op(s). gist: Migration will focus on single legal entity companies.
+  [merge] 0 op(s). gist: Clarification sought on meaning of multiple legal entities in migration context.
+  [merge] 1 op(s). gist: Legal entities, countries, and currencies were used for content switching.
+  [merge] 0 op(s). gist: The speaker acknowledges a difficult situation.
+  [merge] 1 op(s). gist: Uncertainty remains regarding whether the feature is used for language or currency.
+  [add suppressed] duplicate of A34
+Editorial pass: 16 edit(s) applied (45 -> 51 items).
+  [merge] 1 op(s). gist: Uncertainty exists regarding whether multi-country usage is for costing or legal entities.
+  [merge] 0 op(s). gist: Managing the migration process with stakeholders.
+  [merge] 1 op(s). gist: Legal entities are not currently in the product, but will be added later using the new platform.
+  [add suppressed] duplicate of T43
+  [merge] 0 op(s). gist: Multi-legal entity companies are rare, so migration focuses on single legal entity companies.
+  [merge] 1 op(s). gist: Multi-country companies will encounter the legal entity concept for the first time.
+  [merge] 1 op(s). gist: Migrate companies into single legal entities today.
+  [merge] 1 op(s). gist: Phase three will allow moving people to linguistics while hiding countries and regions UI.
+  [merge] 1 op(s). gist: Product team decided to defer legal entity handling to phase three.
+  [merge] 1 op(s). gist: Discussion on surveying active companies regarding setup preferences.
+  [merge] 1 op(s). gist: Experiment will stop new customer registrations with countries and regions.
+  [merge] 1 op(s). gist: Companies expecting the feature must remain unmigrated to avoid delays.
+  [merge] 2 op(s). gist: Discussion on splitting companies into legal entities and flagging feature preferences.
+  [merge] 0 op(s). gist: The speaker discusses the entangled nature of the feature and the meeting's purpose regarding the Delta.
+  [merge] 2 op(s). gist: Team will document Delta listing for testing and follow up with Richard.
+  [merge] 2 op(s). gist: QA team involvement and documentation gaps for migration testing were raised.
+  [merge] 1 op(s). gist: Documentation and transcript issues for migration testing were raised.
+  [merge] 1 op(s). gist: Clarified that migration and reconciliation use cases are being defined.
+  [merge] 1 op(s). gist: QA team to review migration documentation before the scheduled meeting.
+  [merge] 0 op(s). gist: Team requested comments on the migration documentation.
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] group with no known topic ids: {'op': 'group', 'ids': ['T13', 'T46'], 'title': 'Exclusion List Stability'}
+  [edit skipped] malformed group: {'op': 'group', 'ids': ['T19', 'T20', 'T21', 'T22', 'T26', 'T28', 'T29', 'T30', 'T31', 'T32', 'T34', 'T35', ' strings: ']}
+Editorial pass: 222 edit(s) applied (69 -> 69 items).
+
+######## 2026-09-10-migration-deltas / C-supersede ########
+  [merge] 1 op(s). gist: The meeting addresses gaps in company migration for the first experiment launch.
+  [merge] 1 op(s). gist: The company is migrating a growing cohort of single legal entity companies.
+  [merge] 1 op(s). gist: Company migration target increased to 1.4 million companies.
+  [merge] 1 op(s). gist: Shruthi requires one week for ETL and validation before the experiment launch.
+  [merge] 0 op(s). gist: Speaker asks if there will be an issue with the product experience.
+  [merge] 1 op(s). gist: A week prior to the first experiment, a subset of companies and their members will be processed.
+  [merge] 1 op(s). gist: EOS data may change before the experiment, preventing a like-for-like replica of the SOL database on day one.
+  [merge] 1 op(s). gist: Run experiment on ETL process while migrating companies to reduce validation delay.
+  [merge] 1 op(s). gist: Dual reason rights will be non-existent after migration.
+  [merge] 1 op(s). gist: Speaker suggests running the experiment before starting the migration.
+  [merge] 1 op(s). gist: Alerts and dashboards will show mismatches due to SOL being the master.
+  [merge] 1 op(s). gist: An hourly reconciliation process updates platform data from SOL changes.
+  [merge] 0 op(s). gist: Speaker is uncertain about hearing specific information.
+  [merge] 1 op(s). gist: Speaker lacks confidence in current documentation covering edge cases.
+  [merge] 1 op(s). gist: Documentation for test scenarios is requested to enable testing.
+  [merge] 0 op(s). gist: Speaker addresses Rimi regarding a question about threadkeeper.
+  [merge] 1 op(s). gist: Truthies team handles reconciliation and pushes changes to the ledger.
+  [merge] 0 op(s). gist: Speaker mentioned testing in staging environment.
+  [merge] 1 op(s). gist: Testing in lower environments verifies concerns before production.
+  [merge] 0 op(s). gist: Kasey's absence prevents immediate reassurance on institutional answers.
+  [merge] 0 op(s). gist: Team agreed to verbally list cases and add them to the channel.
+  [merge] 1 op(s). gist: Version 1 use case involves extracting data where the happy path verifies perfectly with no deltas.
+  [merge] 0 op(s). gist: An experiment is being run to promote registered users by company.
+  [merge] 1 op(s). gist: Company migration will increase usage risk and delta.
+  [merge] 1 op(s). gist: Reconciliation to SOL is a key flow covered by the dual rights feature.
+  [merge] 1 op(s). gist: Reconciliation documentation is currently missing and needs to be formalized.
+  [merge] 1 op(s). gist: Unclear how reconciliation mechanics work to define all scenarios.
+  [merge] 0 op(s). gist: A reconciler repo can be queried with AI to determine scores.
+  [merge] 1 op(s). gist: Speaker suggests asking Dave to document token-related processes.
+  [merge] 1 op(s). gist: Token reconciliation involves asking for extra tokens without requiring returns.
+Editorial pass: 8 edit(s) applied (21 -> 23 items).
+  [merge] 0 op(s). gist: Reconciliation intensity depends on having a clear contract or scope.
+  [merge] 1 op(s). gist: Clarification needed on migration and reconciliation use cases to avoid assumptions.
+  [merge] 1 op(s). gist: Migration and reconciliation processes need clarification for edge cases.
+  [merge] 1 op(s). gist: Team discussed validating edge cases for B4B experience and assigned tasks to James and Mita.
+  [merge] 1 op(s). gist: Phased loading of 1.4 million companies is preferred over first-load inclusion.
+  [merge] 1 op(s). gist: Proposed focusing migration on active companies to reduce scope.
+  [merge] 1 op(s). gist: The migration timeline is being extended due to congestion and increased scope.
+  [merge] 1 op(s). gist: Real production-like data is needed to measure experiment failures accurately.
+  [merge] 1 op(s). gist: Initial batch timing and replay stages impact data drift between timelines.
+  [merge] 1 op(s). gist: Data drift exists between inclusion and exclusion lists due to removals.
+  [merge] 1 op(s). gist: Exclusion list items cannot re-enter the inclusion list in the first cohort.
+  [merge] 1 op(s). gist: The migration scope is limited to preloaded companies due to congestion.
+  [merge] 1 op(s). gist: Disabled companies must be removed via a right-to-be-forgotten script.
+  [merge] 1 op(s). gist: Accelerate the disabled cohort by scheduling a meeting with company management.
+  [merge] 1 op(s). gist: Script updates for company-level members require more work and will be discussed with Chris and Jeffrey.
+  [merge] 1 op(s). gist: Speaker identified a need to document how companies are identified in SOL.
+  [merge] 1 op(s). gist: Snowflake and soil company mappings are not one-to-one.
+  [merge] 0 op(s). gist: Missing Snowflake records are limited and fall under understandable edge cases.
+  [merge] 2 op(s). gist: DSA provides include/exclude guidance from Snowflake, while DLH notes missing data.
+  [merge] 0 op(s). gist: Admin accounts without SSO access do not need inclusion list entry.
+  [merge] 1 op(s). gist: Marjane is provisioning 1.4 million companies from the deactivated to the migrated bucket.
+  [merge] 0 op(s). gist: Admin access is currently only available in SOL.
+  [merge] 0 op(s). gist: The team confirmed a data governance system exists to track discrepancies between sources.
+  [merge] 1 op(s). gist: Exclusion list handling for multiple legal entities requires a separate Snowflake database.
+  [merge] 1 op(s). gist: Truth will split 1.4 million companies into two entities for the first run.
+  [merge] 1 op(s). gist: Migration scope limited to single legal entities.
+  [merge] 0 op(s). gist: Clarification sought on the meaning of multiple legal entities in the migration scope.
+  [merge] 0 op(s). gist: Legal entities, countries, and currencies were used for content switching.
+  [merge] 0 op(s). gist: The migration scope is complex.
+  [merge] 1 op(s). gist: Unclear if the feature is used as a language agency or currency tool.
+Editorial attempt 0: failed (Expecting ',' delimiter: line 5 column 1342 (char 28785)).
+Editorial attempt 1: failed (Expecting ',' delimiter: line 5 column 1342 (char 28785)).
+Editorial pass skipped after retries.
+  [merge] 1 op(s). gist: Unclear if multi-country usage is for costing or currency, potentially requiring restriction.
+  [merge] 0 op(s). gist: Managing the process with stakeholders.
+  [merge] 1 op(s). gist: Legal entities are not yet in the product, but will be added using the new platform without a SOL equivalent.
+  [add suppressed] duplicate of T46
+  [merge] 0 op(s). gist: Multi-legal entities are rare, so the migration will focus on single legal entity companies first.
+  [merge] 1 op(s). gist: Multi-country companies will be introduced to the legal entity concept for the first time.
+  [merge] 1 op(s). gist: Migrating companies into single legal entities is proposed if multi-entity migration is skipped.
+  [merge] 1 op(s). gist: Phase three will hide country/region UI, preventing users from seeing that screen.
+  [merge] 1 op(s). gist: Multiple legal entities are being deferred to phase three.
+  [merge] 1 op(s). gist: The team is discussing how to handle 46,000 active companies regarding their setup status.
+  [merge] 1 op(s). gist: Experiment will stop new customer registrations with countries and regions.
+  [merge] 1 op(s). gist: Companies expecting a feature must remain in their current state to avoid delays.
+  [merge] 2 op(s). gist: Splitting companies into legal entities and flagging feature requests are needed alongside flexible currency.
+  [merge] 0 op(s). gist: Feature removal is impossible due to entanglement with multiple systems.
+  [merge] 1 op(s). gist: James and Chris will discuss Delta with Keith and Richard.
+  [merge] 1 op(s). gist: QA teams are responsible for checking staging before going live.
+  [merge] 1 op(s). gist: Documentation for the transcript problem needs to be created.
+  [merge] 0 op(s). gist: Discussion on defining migration and reconciliation use cases.
+  [merge] 1 op(s). gist: QA team to review documentation before the scheduled meeting.
+  [merge] 0 op(s). gist: Attendees were asked to provide comments on the document.
+Editorial pass: 9 edit(s) applied (60 -> 61 items).
+
+######## 2026-09-10-tool-test / A-update ########
+  [merge] 0 op(s). gist: Meeting test confirmed with James present.
+  [merge] 1 op(s). gist: Model size bumped to small with cached weights.
+  [merge] 1 op(s). gist: Sydney update requires updating the plan.md document.
+  [merge] 0 op(s). gist: Live notes are not being updated.
+  [merge] 0 op(s). gist: The live note is not yet updated.
+  [merge] 0 op(s). gist: The only topic note visible is model size selection.
+  [merge] 1 op(s). gist: Live Notes are not being updated.
+  [merge] 0 op(s). gist: Speaker begins conversation.
+  [merge] 0 op(s). gist: The capital of Texas is Austin.
+  [merge] 0 op(s). gist: The document was updated.
+  [add suppressed] duplicate of T3
+  [merge] 0 op(s). gist: Live notes are not being updated.
+  [merge] 1 op(s). gist: Speaker asked Claude why notes are not updating.
+  [merge] 1 op(s). gist: Action items are not being updated despite questions being answered.
+  [merge] 1 op(s). gist: The WISPR model work has stopped.
+  [merge] 0 op(s). gist: The meeting was stopped.
+  [merge] 0 op(s). gist: Speaker begins a sentence.
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T1', 'answer': 'WISPR model size changed from base to small with weights cached.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T2', 'answer': 'plan.md requires an explicit update to reflect Sydney changes.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T6', 'answer': 'WISPR model work has stopped due to the configuration change.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T3', 'answer': 'Live notes are currently not being updated during the meeting.'}
+  [edit skipped] resolve with unknown id: {'op': 'resolve', 'id': 'T4', 'answer': 'Live notes update functionality is failing despite topic notes starting.'}
+Editorial pass: 3 edit(s) applied (6 -> 6 items).
+
+######## 2026-09-10-tool-test / B-add-only ########
+  [merge] 0 op(s). gist: Meeting test confirmed with James present.
+  [merge] 1 op(s). gist: Model size bumped to small with weights cached.
+  [merge] 1 op(s). gist: Sydney update requires plan.md revision.
+  [merge] 0 op(s). gist: Live notes are not being updated.
+  [merge] 0 op(s). gist: Live notes are currently unupdated.
+  [merge] 0 op(s). gist: Only topic note visible is model size selection.
+  [merge] 1 op(s). gist: Live Notes update mechanism needs investigation.
+  [merge] 0 op(s). gist: Speaker begins a sentence.
+  [merge] 0 op(s). gist: The capital of Texas is Austin.
+  [merge] 0 op(s). gist: The document was updated.
+  [merge] 1 op(s). gist: Live meeting notes update mechanism remains unexplained.
+  [add suppressed] duplicate of Q4
+  [merge] 0 op(s). gist: Speaker asked why live meeting notes are not being updated.
+  [merge] 1 op(s). gist: Action items are not being updated despite direct requests.
+  [merge] 1 op(s). gist: The WISPR model work has stopped.
+  [merge] 0 op(s). gist: The meeting is being stopped.
+  [merge] 0 op(s). gist: Speaker begins a sentence.
+  [edit skipped] merge with unknown id(s): ['T1', 'T2']
+Editorial pass: 6 edit(s) applied (6 -> 6 items).
+
+######## 2026-09-10-tool-test / C-supersede ########
+  [merge] 0 op(s). gist: Meeting test confirmed with James present.
+  [merge] 1 op(s). gist: Model size bumped from base to small with weights cached.
+  [merge] 1 op(s). gist: Sydney update requires updating the plan.md document.
+  [merge] 0 op(s). gist: Live notes are not being updated.
+  [merge] 0 op(s). gist: The live note is not yet updated.
+  [merge] 0 op(s). gist: The only topic note visible is model size selection.
+  [merge] 1 op(s). gist: Speaker identified a reason why Live Notes are not updating.
+  [merge] 0 op(s). gist: Speaker begins conversation.
+  [merge] 0 op(s). gist: The capital of Texas is Austin.
+  [merge] 0 op(s). gist: The document was updated.
+  [merge] 1 op(s). gist: Live notes update failure remains unresolved.
+  [add suppressed] duplicate of Q4
+  [merge] 0 op(s). gist: Speaker asked why live meeting notes are not being updated.
+  [add suppressed] duplicate of Q4
+  [merge] 0 op(s). gist: Action items are not being updated despite direct requests.
+  [merge] 1 op(s). gist: The WISPR model work has ceased.
+  [merge] 0 op(s). gist: The meeting is being stopped.
+  [merge] 0 op(s). gist: Speaker begins speaking.
+Editorial pass: 6 edit(s) applied (5 -> 4 items).
+
+report: /Users/jamesscholz/hobbes/note-machine/.claude/worktrees/prototype-op-vocabulary/evals/results/PROTOTYPE-op-vocab-ab.md
