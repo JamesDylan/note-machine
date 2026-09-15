@@ -25,6 +25,7 @@ A **locked architecture blueprint**: target module layout and core contracts (it
 - [Local compute concurrency (Whisper + LLM + coach)](issues/04-local-compute-concurrency.md) — Ollama does one call at a time for this model and the GIL isn't the bottleneck; proposed model is one process, four threads on queues (single engine thread, slow lane only when the merge backlog is empty); stay on faster-whisper CPU behind a seam
 - [Local-first peer architectures (Anarlog, Meetily)](issues/02-local-first-peer-architectures.md) — both are one process piping capture → VAD → STT → LLM → storage with an event-out UI; Meetily abandoned a split backend. Copy segment type, per-source channels, event fan-out, propose-only agents; skip plugin SDKs and vendor registries
 - [Core domain language](issues/01-core-domain-language.md) — `CONTEXT.md` written (42 terms). Items are current or retired, never deleted. Locks are time-based. Provenance is per-Op segment-level lines. Merge is the pass and Combine is the op. Anyone can give a Command, with non-Operator changes becoming Proposals. Outside Findings reach the Notes only via Proposal
+- [Op vocabulary: does update survive?](issues/05-op-vocabulary.md) — no: Merge ops are add / supersede / resolve, and fixing an Item retires it and writes a new one. Add-only repeated points and lost facts; update and supersede tied, and supersede was chosen because it keeps history. The Editorial pass's reword, Combine and Split also supersede and apply directly, not as Proposals
 
 ## Not yet specified
 

@@ -13,3 +13,4 @@ Who is allowed to write the notes file and session state, and how do all other a
 - Memo principle 6 ("the file stays the source of truth") and §06 "Who writes the file while the browser is open?"
 - Local compute concurrency (Whisper + LLM + coach) proposes one engine thread as the only thing that changes state or writes notes. Every other actor sends an event to its queue. Test that proposal here.
 - From Core domain language: anyone can give a Command. The Operator's Commands apply directly, and others become Proposals unless allowed. Findings and Query answers reach the Notes only as accepted Proposals. Left for review is a derived view at Session end, not a write. Locked Items can be superseded only by lines said after the lock.
+- From Op vocabulary: does update survive?: the Editorial pass applies reword, Combine and Split directly as the agent, not as Proposals.

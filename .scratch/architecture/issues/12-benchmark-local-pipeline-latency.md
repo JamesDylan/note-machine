@@ -17,3 +17,4 @@ Record the numbers. They set the latency budget for chunk batching and the slow 
 
 - Surfaced by Local compute concurrency (Whisper + LLM + coach), which was read-only and couldn't load models.
 - Use a real transcript from `evals/transcripts/` and a grown `state_*.json` as the prompt source. No production code changes; keep any script throwaway.
+- From Op vocabulary: does update survive?: one merge call on an empty state took 9.3s (first call, model possibly cold). Replays of the same transcript varied by 2–3× between runs, so control for machine load.
