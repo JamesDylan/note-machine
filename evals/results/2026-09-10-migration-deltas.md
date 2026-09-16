@@ -1,5 +1,5 @@
 # Eval: 2026-09-10-migration-deltas
-*Run 2026-09-14 14:49, model qwen3.5:4b, whisper n/a (text replay)*
+*Run 2026-09-16 13:20, model qwen3.5:4b, whisper n/a (text replay)*
 
 ## Metrics
 - Chunks: 79
@@ -22,33 +22,33 @@
 
 ## Final notes
 
-# Meeting Notes — Mon 14 Sep 2026
+# Meeting Notes — Wed 16 Sep 2026
 
 > Meeting addresses data mismatch risks during company migration and agrees to align experiment start with ETL.
 
 ## Decisions
-- [14:42] Agreed to flip experiment start to match ETL migration window for reduced delta. <!--D21-->
-- [14:46] Agreed to exclude multiple legal entities and split single-income entities into two runs. <!--D46-->
+- [13:08] Agreed to flip experiment start to match ETL migration window for reduced delta. <!--D21-->
+- [13:14] Agreed to exclude multiple legal entities and split single-income entities into two runs. <!--D46-->
 
 ## Action Items
-- [ ] [14:41] **Truthies team** — Truthies team handles reconciliation and pushes ledger changes. <!--A12-->
-- [ ] [14:42] **Speaker** — Ask Dave to document token scenarios. <!--A20-->
-- [ ] [14:42] Dave to document token scenarios and happy, edge, and delta cases. <!--A22-->
-- [ ] [14:43] **James, Mita** — James and Mita to document edge cases. <!--A25-->
-- [ ] [14:44] **Stravas** — Schedule meeting with company management. <!--A34-->
-- [ ] [14:44] **Unknown** — Update script for company and member levels. <!--A35-->
-- [ ] [14:48] **James, Chris** — James and Chris to discuss Delta with Keith and Richard. <!--A59-->
-- [ ] [14:48] **Craig** — Craig to document token scenarios and transcript issues. <!--A62-->
-- [ ] [14:49] QA team to review migration concerns. <!--A63-->
-- [ ] [14:49] QA team to document migration issues. <!--A64-->
+- [ ] [13:06] **Truthies team** — Truthies team handles reconciliation and pushes ledger changes. <!--A12-->
+- [ ] [13:07] **Speaker** — Ask Dave to document token scenarios. <!--A20-->
+- [ ] [13:08] Dave to document token scenarios and happy, edge, and delta cases. <!--A22-->
+- [ ] [13:09] **James, Mita** — James and Mita to document edge cases. <!--A25-->
+- [ ] [13:10] **Stravas** — Schedule meeting with company management. <!--A34-->
+- [ ] [13:10] **Unknown** — Update script for company and member levels. <!--A35-->
+- [ ] [13:18] **James, Chris** — James and Chris to discuss Delta with Keith and Richard. <!--A59-->
+- [ ] [13:18] **Craig** — Craig to document token scenarios and transcript issues. <!--A62-->
+- [ ] [13:19] QA team to review migration concerns. <!--A63-->
+- [ ] [13:19] QA team to document migration issues. <!--A64-->
 
 ## Open Questions
-- [14:44] Limited missing records are understandable edge cases. <!--Q38-->
-- [14:46] Is the feature used as a language or currency tool? <!--Q45-->
-- [14:46] Purpose of multiple legal entities unclear. <!--Q47-->
-- [14:47] How to survey 46,000 active companies on setup preferences. <!--Q54-->
-- [14:48] QA team involvement unclear for live migration. <!--Q60-->
-- [14:48] Documentation gaps exist for live migration. <!--Q61-->
+- [13:11] Limited missing records are understandable edge cases. <!--Q38-->
+- [13:13] Is the feature used as a language or currency tool? <!--Q45-->
+- [13:14] Purpose of multiple legal entities unclear. <!--Q47-->
+- [13:16] How to survey 46,000 active companies on setup preferences. <!--Q54-->
+- [13:18] QA team involvement unclear for live migration. <!--Q60-->
+- [13:18] Documentation gaps exist for live migration. <!--Q61-->
 
 **Answered**
 - ~~Will company migration impact product experience?~~ → **Company migration will impact product experience by temporarily hiding country/region UI for active companies.** <!--Q2-->
@@ -61,53 +61,53 @@
 
 ## Discussion
 ### Migration Timing and Drift
-- [14:39] Gap in company migration for first experiment launch. <!--T1-->
-- [14:40] Subset of companies selected one week prior to first experiment launch. <!--T3-->
-- [14:40] EOS and SOL databases will not match on day one. <!--T4-->
-- [14:40] Flip experiment start to match ETL migration window. <!--T5-->
-- [14:41] Test migration in staging environment. <!--T13-->
-- [14:41] Verify concerns in lower environments before production. <!--T14-->
+- [13:03] Gap in company migration for first experiment launch. <!--T1-->
+- [13:04] Subset of companies selected one week prior to first experiment launch. <!--T3-->
+- [13:04] EOS and SOL databases will not match on day one. <!--T4-->
+- [13:04] Flip experiment start to match ETL migration window. <!--T5-->
+- [13:06] Test migration in staging environment. <!--T13-->
+- [13:06] Verify concerns in lower environments before production. <!--T14-->
 
 ### Migration Risks and Strategy
-- [14:40] Dual reason rights will be non-existent post-migration. <!--T6-->
-- [14:40] Alerting and dashboards will show mismatches. <!--T8-->
-- [14:40] Hourly reconciliation updates platform with SOL changes. <!--T9-->
-- [14:41] Product team increasing company usage risk. <!--T15-->
-- [14:41] Dual rights flow covers reconciliation to SOL. <!--T16-->
-- [14:42] Reconciliation documentation currently relies on Slack messages. <!--T17-->
-- [14:42] Reconciler repo scores B4B experiences via AI. <!--T19-->
-- [14:43] Need real measurement data matching production shape. <!--T28-->
-- [14:44] Disabled script required for companies with no login or deactivation requests. <!--T33-->
-- [14:44] Identify companies in SOL via tagging. <!--T36-->
-- [14:44] Snowflake and SOL company mappings are not one-to-one. <!--T37-->
-- [14:45] DSA provides include and exclude guidance from Snowflake. <!--T39-->
-- [14:45] DLH provides notes on exclusion sequel regarding missing Snowflake data. <!--T40-->
-- [14:45] Admin accounts without SSO access excluded from inclusion list. <!--T41-->
-- [14:45] Admin access currently only available in SOL. <!--T42-->
+- [13:04] Dual reason rights will be non-existent post-migration. <!--T6-->
+- [13:05] Alerting and dashboards will show mismatches. <!--T8-->
+- [13:05] Hourly reconciliation updates platform with SOL changes. <!--T9-->
+- [13:06] Product team increasing company usage risk. <!--T15-->
+- [13:07] Dual rights flow covers reconciliation to SOL. <!--T16-->
+- [13:07] Reconciliation documentation currently relies on Slack messages. <!--T17-->
+- [13:07] Reconciler repo scores B4B experiences via AI. <!--T19-->
+- [13:09] Need real measurement data matching production shape. <!--T28-->
+- [13:10] Disabled script required for companies with no login or deactivation requests. <!--T33-->
+- [13:10] Identify companies in SOL via tagging. <!--T36-->
+- [13:11] Snowflake and SOL company mappings are not one-to-one. <!--T37-->
+- [13:11] DSA provides include and exclude guidance from Snowflake. <!--T39-->
+- [13:11] DLH provides notes on exclusion sequel regarding missing Snowflake data. <!--T40-->
+- [13:11] Admin accounts without SSO access excluded from inclusion list. <!--T41-->
+- [13:12] Admin access currently only available in SOL. <!--T42-->
 
 ### Inclusion and Exclusion Logic
-- [14:43] Phased loading of single legal entities considered. <!--T26-->
-- [14:43] Focus migration on active base companies. <!--T27-->
-- [14:43] Phased loading of initial batch may cause temporary data drift. <!--T29-->
-- [14:44] Inclusion and exclusion list drift expected. <!--T30-->
-- [14:44] Exclusion list cannot be entered without a winner. <!--T31-->
-- [14:44] Exclude customers waiting to be removed from migration. <!--T32-->
+- [13:09] Phased loading of single legal entities considered. <!--T26-->
+- [13:09] Focus migration on active base companies. <!--T27-->
+- [13:09] Phased loading of initial batch may cause temporary data drift. <!--T29-->
+- [13:10] Inclusion and exclusion list drift expected. <!--T30-->
+- [13:10] Exclusion list cannot be entered without a winner. <!--T31-->
+- [13:10] Exclude customers waiting to be removed from migration. <!--T32-->
 
 ### Legal Entities and Multi-Country Companies
-- [14:45] Exclusion list required for multiple legal entities. <!--T43-->
-- [14:45] 1.4 million companies split into two runs for single-income entities. <!--T44-->
-- [14:47] Legal entities concept added to product via new platform. <!--T48-->
-- [14:47] Multi-legal entities required only for multi-country companies. <!--T49-->
-- [14:47] Multi-country companies introduced to legal entity concept. <!--T50-->
-- [14:47] Migrating single-income entities today avoids confusion if not split. <!--T51-->
-- [14:48] Split companies into legal entities for future targeting. <!--T57-->
+- [13:12] Exclusion list required for multiple legal entities. <!--T43-->
+- [13:12] 1.4 million companies split into two runs for single-income entities. <!--T44-->
+- [13:15] Legal entities concept added to product via new platform. <!--T48-->
+- [13:15] Multi-legal entities required only for multi-country companies. <!--T49-->
+- [13:15] Multi-country companies introduced to legal entity concept. <!--T50-->
+- [13:15] Migrating single-income entities today avoids confusion if not split. <!--T51-->
+- [13:17] Split companies into legal entities for future targeting. <!--T57-->
 
 ### Feature Rollout and Admin Flags
-- [14:47] Phase three hides country and region UI. <!--T52-->
-- [14:47] Multiple legal entity ownership unclear. <!--T53-->
-- [14:48] Stop new customer registrations with countries and regions. <!--T55-->
-- [14:48] Keep companies in current state to avoid delays. <!--T56-->
-- [14:48] Admin flags required to target features before phase two. <!--T58-->
+- [13:16] Phase three hides country and region UI. <!--T52-->
+- [13:16] Multiple legal entity ownership unclear. <!--T53-->
+- [13:17] Stop new customer registrations with countries and regions. <!--T55-->
+- [13:17] Keep companies in current state to avoid delays. <!--T56-->
+- [13:17] Admin flags required to target features before phase two. <!--T58-->
 
 
 ---
