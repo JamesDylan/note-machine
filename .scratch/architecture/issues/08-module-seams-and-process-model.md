@@ -1,7 +1,7 @@
 # Module seams & process model
 
 Type: grilling
-Blocked by: 02, 04, 06, 07, 12
+Blocked by: 02, 04, 06, 07, 12, 13
 
 ## Question
 
