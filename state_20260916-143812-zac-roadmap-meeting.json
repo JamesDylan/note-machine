@@ -1,0 +1,235 @@
+{
+  "summary": "Meeting confirmed October migration scope excludes company cards, established automated failover for SDK errors, and set up New Relic dashboards for monitoring.",
+  "attendees": [
+    "Zac",
+    "James",
+    "Lilly"
+  ],
+  "template": "default",
+  "decisions": [
+    {
+      "id": "D33",
+      "text": "Remove feature for all new companies.",
+      "t": "14:56"
+    },
+    {
+      "id": "D35",
+      "text": "Disable feature for all new companies.",
+      "t": "14:57"
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A8",
+      "text": "No business time available in October.",
+      "t": "14:42"
+    },
+    {
+      "id": "A12",
+      "text": "Implement error threshold for 500 SDK failures.",
+      "t": "14:45",
+      "owner": "Renee"
+    },
+    {
+      "id": "A21",
+      "text": "Review high company credit card payment options.",
+      "t": "14:49"
+    },
+    {
+      "id": "A39",
+      "text": "Disable new registrations for the feature.",
+      "t": "14:58",
+      "owner": "Jacqui"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q5",
+      "text": "Who owns the budget?",
+      "t": "14:42",
+      "deleted": true
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Country and region results available in an hour.",
+      "t": "14:39",
+      "group": "Results Timeline"
+    },
+    {
+      "id": "T2",
+      "text": "Quantify the issue to win it back with the new version.",
+      "t": "14:39"
+    },
+    {
+      "id": "T3",
+      "text": "Results arriving in stages for languages and legal entities.",
+      "t": "14:39",
+      "group": "Results Timeline"
+    },
+    {
+      "id": "T4",
+      "text": "Company migration scope document received.",
+      "t": "14:41",
+      "group": "Migration Scope"
+    },
+    {
+      "id": "T6",
+      "text": "New Relic Dashboard for legacy payment errors.",
+      "t": "14:42",
+      "group": "Monitoring Setup"
+    },
+    {
+      "id": "T7",
+      "text": "Use New Relic dashboard to compare Delta results.",
+      "t": "14:42",
+      "group": "Monitoring Setup"
+    },
+    {
+      "id": "T9",
+      "text": "Immediate rollback to legacy path if B4B experiment causes harm.",
+      "t": "14:43",
+      "group": "Failover Strategy"
+    },
+    {
+      "id": "T10",
+      "text": "Booking.com white label payment integration.",
+      "t": "14:43"
+    },
+    {
+      "id": "T11",
+      "text": "Agreed failover strategy for Y label conference page.",
+      "t": "14:44",
+      "group": "Failover Strategy"
+    },
+    {
+      "id": "T13",
+      "text": "Switch to Booking.com white label due to lack of rollback.",
+      "t": "14:45",
+      "group": "Failover Strategy"
+    },
+    {
+      "id": "T14",
+      "text": "Checkout split into two pages.",
+      "t": "14:46"
+    },
+    {
+      "id": "T15",
+      "text": "Automatic switching based on 500 SDK errors.",
+      "t": "14:46",
+      "group": "Failover Strategy"
+    },
+    {
+      "id": "T16",
+      "text": "Automated failover for third-party services.",
+      "t": "14:46",
+      "group": "Failover Strategy"
+    },
+    {
+      "id": "T17",
+      "text": "Scope limited to travel accounts and Booking.com.",
+      "t": "14:47",
+      "group": "Migration Scope"
+    },
+    {
+      "id": "T18",
+      "text": "Company credit cards excluded from scope.",
+      "t": "14:47",
+      "group": "Migration Scope"
+    },
+    {
+      "id": "T19",
+      "text": "Booking.com leisure profile cards used instead of Serko.",
+      "t": "14:48",
+      "group": "Migration Scope"
+    },
+    {
+      "id": "T20",
+      "text": "Corporate card sharing solution scales to punch outs.",
+      "t": "14:49"
+    },
+    {
+      "id": "T22",
+      "text": "Corporate card sharing required for hotel funnel.",
+      "t": "14:49"
+    },
+    {
+      "id": "T23",
+      "text": "Remove duplicate bookings from SOL and Eos.",
+      "t": "14:51"
+    },
+    {
+      "id": "T24",
+      "text": "SOL team addresses small user experience issue.",
+      "t": "14:51"
+    },
+    {
+      "id": "T25",
+      "text": "Users reported missing options when selecting preferences.",
+      "t": "14:52"
+    },
+    {
+      "id": "T26",
+      "text": "Ship the forked SOL front end code.",
+      "t": "14:52"
+    },
+    {
+      "id": "T27",
+      "text": "Eos migration scope includes partial company inclusion.",
+      "t": "14:54"
+    },
+    {
+      "id": "T28",
+      "text": "Clean up duplicate bookings to protect team capacity.",
+      "t": "14:54"
+    },
+    {
+      "id": "T29",
+      "text": "Delete pre-loaded jams.",
+      "t": "14:54"
+    },
+    {
+      "id": "T30",
+      "text": "Determine target criteria via SOL database flag.",
+      "t": "14:55"
+    },
+    {
+      "id": "T31",
+      "text": "Delete pre-loaded companies only.",
+      "t": "14:56"
+    },
+    {
+      "id": "T32",
+      "text": "Traxxo discontinuing relationship with walking.com.",
+      "t": "14:56"
+    },
+    {
+      "id": "T34",
+      "text": "Booking.com supplies on-border clients including Serko.",
+      "t": "14:57"
+    },
+    {
+      "id": "T36",
+      "text": "A.B. test to hide feature for non-users.",
+      "t": "14:57"
+    },
+    {
+      "id": "T37",
+      "text": "Booking.com ending Traxco service.",
+      "t": "14:58"
+    },
+    {
+      "id": "T38",
+      "text": "Create offboarding workflow for current users.",
+      "t": "14:58"
+    },
+    {
+      "id": "T40",
+      "text": "Offload Delta users by year-end.",
+      "t": "14:58"
+    }
+  ],
+  "asked": [],
+  "next_id": 41
+}

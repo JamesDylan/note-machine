@@ -1,0 +1,368 @@
+{
+  "summary": "Meeting addresses 2027 roadmap bottlenecks, staff attrition to Serko AI, and plans to create specific vision tests.",
+  "attendees": [
+    "Zac",
+    "lilly",
+    "james",
+    "jacqui",
+    "dawn",
+    "kat"
+  ],
+  "template": "default",
+  "decisions": [
+    {
+      "id": "D58",
+      "text": "Agreed to split the 2027 roadmap into first and second halves with specific subscription and space outcomes.",
+      "t": "14:34"
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A6",
+      "text": "Ben confirmed existing system for migration.",
+      "t": "14:05",
+      "owner": "Lilly"
+    },
+    {
+      "id": "A8",
+      "text": "Request more front-end engineers.",
+      "t": "14:05",
+      "owner": "Lilly"
+    },
+    {
+      "id": "A9",
+      "text": "Recruit six front-end engineers for B4B.",
+      "t": "14:06",
+      "owner": "Lilly",
+      "locked": true
+    },
+    {
+      "id": "A22",
+      "text": "**",
+      "t": "14:06",
+      "locked": true,
+      "deleted": true
+    },
+    {
+      "id": "A43",
+      "text": "Send reassessment message to Matt and Ben.",
+      "t": "14:24",
+      "owner": "DSA"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q44",
+      "text": "Define metrics for inconclusive experiments.",
+      "t": "14:24",
+      "resolved": true,
+      "answer": "Metrics for inconclusive experiments must be defined to avoid repeating past failures."
+    },
+    {
+      "id": "Q47",
+      "text": "Define metrics for Booking.com funnel performance.",
+      "t": "14:26",
+      "resolved": true,
+      "answer": "Booking.com funnel performance metrics must be defined to measure direct booking influence."
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "roadmap discussion",
+      "t": "14:03",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T2",
+      "text": "Review GDS and symptoms roadmap candidates.",
+      "t": "14:03",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T3",
+      "text": "Space one launch moved to second half of golden week.",
+      "t": "14:03",
+      "group": "Staff Attrition & Serko AI"
+    },
+    {
+      "id": "T4",
+      "text": "Shift from quarterly to five-year view",
+      "t": "14:04",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T5",
+      "text": "Co-create 2027 product evolution view via design sprints",
+      "t": "14:04",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T7",
+      "text": "B4B engineering resource allocation",
+      "t": "14:05",
+      "group": "Engineering Resources & Workload"
+    },
+    {
+      "id": "T10",
+      "text": "Serko AI visibility via eugenic pods",
+      "t": "14:06",
+      "group": "Staff Attrition & Serko AI"
+    },
+    {
+      "id": "T11",
+      "text": "Teams using Claude for agenda creation",
+      "t": "14:06",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T12",
+      "text": "Pratima feasibility assessment",
+      "t": "14:07",
+      "locked": true
+    },
+    {
+      "id": "T13",
+      "text": "Quality metrics for agent deployment",
+      "t": "14:07",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T14",
+      "text": "Agents need fully specified Figma files.",
+      "t": "14:07",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T15",
+      "text": "Review isolated design spreads to reduce time to design readiness.",
+      "t": "14:08",
+      "deleted": true
+    },
+    {
+      "id": "T16",
+      "text": "2027 robot product management constraints",
+      "t": "14:08",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T17",
+      "text": "Company growth surface areas",
+      "t": "14:08",
+      "deleted": true
+    },
+    {
+      "id": "T18",
+      "text": "Pressure on 2027 due to March contract renewal",
+      "t": "14:09",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T19",
+      "text": "Structure roadmap to define clear destination goals.",
+      "t": "14:09",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T20",
+      "text": "Staff attrition due to Serko AI preference",
+      "t": "14:09",
+      "group": "Staff Attrition & Serko AI"
+    },
+    {
+      "id": "T21",
+      "text": "Designers moving out of B4B to design system and Serko AI",
+      "t": "14:10",
+      "deleted": true
+    },
+    {
+      "id": "T23",
+      "text": "Roadmap missing causes confusion on team locations and vision.",
+      "t": "14:10",
+      "deleted": true
+    },
+    {
+      "id": "T24",
+      "text": "Need a leader to define clear vision.",
+      "t": "14:11",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T25",
+      "text": "Create artifacts for 2027 WeBooking.com vision.",
+      "t": "14:12",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T26",
+      "text": "Define 2027 quality metrics for WeBooking.com.",
+      "t": "14:12",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T27",
+      "text": "James leads vision test with Chris.",
+      "t": "14:13",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T28",
+      "text": "Dawn leads vision test with Megan.",
+      "t": "14:13",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T29",
+      "text": "Replace design sprints with product and design sessions.",
+      "t": "14:13",
+      "group": "Leadership & Vision Tests"
+    },
+    {
+      "id": "T30",
+      "text": "Product becoming a bottleneck.",
+      "t": "14:13"
+    },
+    {
+      "id": "T31",
+      "text": "Staff attrition increasing engineering workload.",
+      "t": "14:14",
+      "group": "Engineering Resources & Workload"
+    },
+    {
+      "id": "T32",
+      "text": "Evolve work methods due to lack of front-end engineers.",
+      "t": "14:14",
+      "group": "Engineering Resources & Workload"
+    },
+    {
+      "id": "T33",
+      "text": "Lean document process generates PRDs and triggers two-week B4Build cycle.",
+      "t": "14:15",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T34",
+      "text": "Designs ready after two-week delay.",
+      "t": "14:15",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T35",
+      "text": "PRD creation process takes two months.",
+      "t": "14:16",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T36",
+      "text": "Phase three PRD creation took hours.",
+      "t": "14:16",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T37",
+      "text": "Contact management involves significant tech debt.",
+      "t": "14:17",
+      "group": "Process Bottlenecks & Artifacts"
+    },
+    {
+      "id": "T38",
+      "text": "Break 2027 roadmap into first and second halves.",
+      "t": "14:18",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T39",
+      "text": "Align product managers with specific subscription and space outcomes.",
+      "t": "14:18"
+    },
+    {
+      "id": "T40",
+      "text": "Iterate on one year plan.",
+      "t": "14:19",
+      "group": "2027 Roadmap Strategy"
+    },
+    {
+      "id": "T41",
+      "text": "Eos Native Migration feature flag visibility",
+      "t": "14:20"
+    },
+    {
+      "id": "T42",
+      "text": "C&O experiment announcement visibility",
+      "t": "14:21",
+      "group": "Staff Attrition & Serko AI"
+    },
+    {
+      "id": "T45",
+      "text": "Experiments causing pressure",
+      "t": "14:25"
+    },
+    {
+      "id": "T46",
+      "text": "Booking influence metrics",
+      "t": "14:25"
+    },
+    {
+      "id": "T48",
+      "text": "AB Smartly handling non-inferiority experimentation",
+      "t": "14:26"
+    },
+    {
+      "id": "T49",
+      "text": "Anomaly status regarding back-end swap migration.",
+      "t": "14:29"
+    },
+    {
+      "id": "T50",
+      "text": "James handles direct communication for daily support issues.",
+      "t": "14:30"
+    },
+    {
+      "id": "T51",
+      "text": "Hide unused fields in traveler profile ticket.",
+      "t": "14:30"
+    },
+    {
+      "id": "T52",
+      "text": "Call at 9 p.m. to discuss blocking three domains.",
+      "t": "14:30"
+    },
+    {
+      "id": "T53",
+      "text": "B4B report excludes leisure bookings.",
+      "t": "14:31"
+    },
+    {
+      "id": "T54",
+      "text": "Leisure bookings forced into gross bookings metrics.",
+      "t": "14:32"
+    },
+    {
+      "id": "T55",
+      "text": "Marketing spend discounts at lowest commissioned tier.",
+      "t": "14:32"
+    },
+    {
+      "id": "T56",
+      "text": "Serko AI tier miss costs millions.",
+      "t": "14:33"
+    },
+    {
+      "id": "T57",
+      "text": "Bountage caused thousands of lost lockings.",
+      "t": "14:33"
+    },
+    {
+      "id": "T59",
+      "text": "Payment migration error mapping risks.",
+      "t": "14:34"
+    },
+    {
+      "id": "T60",
+      "text": "Lena's team mapped errands and set up Relic dashboard.",
+      "t": "14:35"
+    }
+  ],
+  "asked": [],
+  "next_id": 61
+}

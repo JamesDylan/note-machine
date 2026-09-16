@@ -1,0 +1,140 @@
+{
+  "summary": "Team agreed to proceed with the October 9th migration, focusing on high-level PRDs first to manage constraints.",
+  "attendees": [
+    "James",
+    "Lilly"
+  ],
+  "template": "default",
+  "decisions": [
+    {
+      "id": "D7",
+      "text": "Proceed with AB Smartly migration.",
+      "t": "13:12"
+    }
+  ],
+  "action_items": [
+    {
+      "id": "A6",
+      "text": "James helps Dawn with North Star path.",
+      "t": "13:11",
+      "owner": "James"
+    },
+    {
+      "id": "A19",
+      "text": "Come with churn ideas.",
+      "t": "13:28"
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q18",
+      "text": "Are there free versions of incentivisation available?",
+      "t": "13:28"
+    }
+  ],
+  "topics": [
+    {
+      "id": "T1",
+      "text": "Speaker needs a quiet day off.",
+      "t": "13:03",
+      "group": "Migration Strategy"
+    },
+    {
+      "id": "T2",
+      "text": "POD scope for full migration",
+      "t": "13:04",
+      "group": "Scope and Constraints"
+    },
+    {
+      "id": "T3",
+      "text": "Start with high-level PRD, then move to detailed ones.",
+      "t": "13:04",
+      "group": "Migration Strategy"
+    },
+    {
+      "id": "T4",
+      "text": "Full expense migration scope",
+      "t": "13:06",
+      "group": "Scope and Constraints"
+    },
+    {
+      "id": "T5",
+      "text": "Full migration blocked by current constraints",
+      "t": "13:07",
+      "group": "Scope and Constraints"
+    },
+    {
+      "id": "T8",
+      "text": "Company policy and traveler scope themes are clear.",
+      "t": "13:12",
+      "group": "Team Dynamics"
+    },
+    {
+      "id": "T9",
+      "text": "Frame problem before solutions",
+      "t": "13:13",
+      "group": "Migration Strategy"
+    },
+    {
+      "id": "T10",
+      "text": "Louise and Keith had conflicting approaches to documentation.",
+      "t": "13:16",
+      "group": "Team Dynamics"
+    },
+    {
+      "id": "T11",
+      "text": "Team involvement speeds up discovery work.",
+      "t": "13:17",
+      "group": "Team Dynamics"
+    },
+    {
+      "id": "T12",
+      "text": "Hypercare risks regarding field mismatches and migration changes.",
+      "t": "13:19",
+      "group": "Risks and Timeline"
+    },
+    {
+      "id": "T13",
+      "text": "Migration preparation complete; team can start shifting work in October.",
+      "t": "13:19",
+      "group": "Risks and Timeline"
+    },
+    {
+      "id": "T14",
+      "text": "B4B team assisting with migration",
+      "t": "13:22"
+    },
+    {
+      "id": "T15",
+      "text": "Contract negotiation",
+      "t": "13:23"
+    },
+    {
+      "id": "T16",
+      "text": "Impactors scope independent of service areas.",
+      "t": "13:27"
+    },
+    {
+      "id": "T17",
+      "text": "Avoid spending money on incentivising people.",
+      "t": "13:28"
+    },
+    {
+      "id": "T20",
+      "text": "Jacqui's team deleting company data.",
+      "t": "13:29"
+    },
+    {
+      "id": "T21",
+      "text": "Zach's team handles in-state work to avoid distracting Jacqui's team.",
+      "t": "13:29"
+    },
+    {
+      "id": "T22",
+      "text": "Delete script execution on non-migrated companies.",
+      "t": "13:30"
+    }
+  ],
+  "asked": [],
+  "next_id": 23
+}
