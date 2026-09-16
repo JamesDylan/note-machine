@@ -496,7 +496,7 @@ def render_item(section: str, item: dict) -> str:
     """One bullet. The trailing HTML comment carries the item ID: invisible
     in Obsidian's preview, but it's what lets an edit you make in the file
     be matched back to the right item instead of looking like a new note."""
-    stamp = f"[{item['t']}] " if item.get("t") else ""
+    stamp = f"({item['t']}) " if item.get("t") else ""
     tail = f" <!--{item['id']}-->"
     if section == "open_questions" and item.get("resolved"):
         answer = item.get("answer", "resolved")
@@ -510,7 +510,7 @@ def render_item(section: str, item: dict) -> str:
 NOTE_LINE_RE = re.compile(
     r"^\s*[-*]\s+(?:\[[ xX]\]\s*)?(?P<body>.*?)\s*<!--\s*(?P<id>[DAQT]\d+)\s*-->\s*$")
 NEW_LINE_RE = re.compile(r"^\s*[-*]\s+(?:\[[ xX]\]\s*)?(?P<body>.+?)\s*$")
-STAMP_RE = re.compile(r"^\[(\d{1,2}:\d{2})\]\s*")
+STAMP_RE = re.compile(r"^[\[(](\d{1,2}:\d{2})[\])]\s*")
 OWNER_RE = re.compile(r"^\*\*(?P<owner>[^*]{1,40})\*\*\s*[—-]\s*")
 RESOLVED_RE = re.compile(r"^~~(?P<text>.*?)~~(?:\s*→\s*\*\*(?P<answer>.*?)\*\*)?\s*$")
 
