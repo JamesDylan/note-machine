@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Feature scratchpad.md",
+                "file": "live_notes_20260916-143812-zac-roadmap-meeting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Feature scratchpad"
+              "title": "live_notes_20260916-143812-zac-roadmap-meeting"
             }
           }
         ],
@@ -219,13 +219,26 @@
   },
   "active": "d81c40ac9cd59861",
   "lastOpenFiles": [
+    "live_notes_20260916-140252-roadmap-meeting.md",
+    "state_20260916-143812-zac-roadmap-meeting.json",
+    "live_notes_20260916-143812-zac-roadmap-meeting.md",
+    "raw_transcript_20260916-143812-zac-roadmap-meeting.log",
+    "live_notes.md",
+    "state_20260916-140252-roadmap-meeting.json",
+    "raw_transcript_20260916-140252-roadmap-meeting.log",
+    "live_notes_20260911-100248-eos-standup.md",
+    "live_notes_20260916-130236-james-lilly-1-on-1-weds.md",
+    "Feature scratchpad.md",
+    "state_20260916-130236-james-lilly-1-on-1-weds.json",
+    "raw_transcript_20260916-130236-james-lilly-1-on-1-weds.log",
+    "__pycache__/state.cpython-314.pyc",
+    "state.py",
+    "CONTEXT.md",
+    "note-machine-concept-memo.html",
     "templates.json",
     "live_notes_20260914-090307-agentic-workflow-overview.md",
     "live_notes_20260911-154801-prd-produt-trio-test-with-pratima.md",
-    "live_notes.md",
-    "Feature scratchpad.md",
     "output copy from live note.md",
-    "live_notes_20260911-100248-eos-standup.md",
     "live_notes_20260910-130240.md",
     "live_notes_20260909-145101.md",
     "live_notes_20260910-120355.md",
@@ -234,24 +247,12 @@
     "live_notes_20260911-140342-jacqui-1-on-1.md",
     "Zac 1-1 meeting.md",
     "live_notes_20260914-101147-james-lilly-1-on-1.md",
-    "state_20260914-101147-james-lilly-1-on-1.json",
-    "raw_transcript_20260914-101147-james-lilly-1-on-1.log",
-    "state_20260911-154801-prd-produt-trio-test-with-pratima.json",
-    "raw_transcript_20260911-154801-prd-produt-trio-test-with-pratima.log",
-    "state_20260911-150005-zac-1-on1.json",
     "live_notes_20260911-150005-zac-1-on1.md",
-    "raw_transcript_20260911-150005-zac-1-on1.log",
-    "state_20260911-140342-jacqui-1-on-1.json",
-    "raw_transcript_20260911-140342-jacqui-1-on-1.log",
-    "state_20260911-113040-eos-migration-plan.json",
     "live_notes_20260911-113040-eos-migration-plan.md",
-    "raw_transcript_20260911-113040-eos-migration-plan.log",
     "evals/transcripts/Migration - Deltas - 2026_09_10 13_00 NZST - Notes by Gemini.md",
     "evals/results/2026-09-10-migration-deltas.md",
     "evals/transcripts/2026-09-10_migration-delta-meeting.md",
     "README.md",
-    "evals/results/2026-09-10-tool-test.md",
-    "evals/results/2026-09-10-cycle-planning.md",
-    "live_notes copy.md"
+    "evals/results/2026-09-10-tool-test.md"
   ]
 }
