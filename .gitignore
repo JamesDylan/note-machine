@@ -1,0 +1,18 @@
+# Private meeting data — never commit real transcripts/notes
+raw_transcript_*.log
+live_notes_*.md
+live_notes.md
+state_*.json
+output copy from live note.md
+evals/transcripts/
+evals/results/
+evals/expected/
+.current_session
+
+# OS / editor
+.DS_Store
+.obsidian/
+
+# Python
+__pycache__/
+*.pyc
