@@ -54,7 +54,11 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 LATEST_NOTES_PATH = "live_notes.md"  # always mirrors whichever session is active — keep this open in Obsidian
 SESSION_POINTER_PATH = ".current_session"
 WHISPER_MODEL_SIZE = "small.en"  # noticeably better than base.en on meeting audio; drop back if too slow
-TRIGGER_PHRASES = ["hey note machine", "note machine"]
+TRIGGER_PHRASES = ["hey note machine", "note machine"]  # shown to the user; matching is TRIGGER_RE
+# Whisper writes the wake phrase as "Notemachine", "note  machine", "Hey, Note-Machine"...
+TRIGGER_RE = re.compile(r"(?:\bhey[\s,.]+)?\bnote[\s\-]*machine\b", re.IGNORECASE)
+RED = "\033[1;31m" if sys.stdout.isatty() else ""
+RESET = "\033[0m" if sys.stdout.isatty() else ""
 ITEM_SECTIONS = ("decisions", "action_items", "open_questions", "topics")
 SECTION_PREFIXES = {"decisions": "D", "action_items": "A", "open_questions": "Q", "topics": "T"}
 MAX_MERGE_RETRIES = 1
@@ -635,7 +639,8 @@ Return ONLY valid JSON, nothing else: {{"gist": "...", "ops": [...]}}
                 applied = apply_ops(state, candidate["ops"])
                 # Always show the model's reading of the chunk — when notes
                 # aren't updating, this is the first place to look.
-                print(f"  [merge] {applied} op(s). gist: {candidate.get('gist', '(none)')}")
+                print(f"  [merge] {applied} op(s).")
+                print(f"  {RED}gist: {candidate.get('gist', '(none)')}{RESET}")
                 return state
             print(f"Merge attempt {attempt}: invalid ops ({err})")
 
@@ -1024,53 +1029,74 @@ def reconcile_user_edits(state: dict, text: str) -> int:
 
 def extract_trigger(text: str):
     """Return (query, remaining_notes_text). If a wake phrase is found, the
-    query is what follows it, and remaining_notes_text is what preceded it
-    (real meeting content in the same chunk still reaches the notes)."""
-    lower = text.lower()
-    for phrase in TRIGGER_PHRASES:
-        idx = lower.find(phrase)
-        if idx != -1:
-            query = text[idx + len(phrase):].strip(" ,.:;-")
-            before = text[:idx].strip()
-            return query, before
-    return None, text
+    query is what follows it (possibly empty — the command may arrive in the
+    next chunk), and remaining_notes_text is what preceded it (real meeting
+    content in the same chunk still reaches the notes)."""
+    m = TRIGGER_RE.search(text)
+    if m is None:
+        return None, text
+    return text[m.end():].strip(" ,.:;-"), text[:m.start()].strip()
 
 
-def answer_query(question: str, state: dict) -> str:
+def handle_command(command: str, state: dict) -> str:
+    """One model call that answers a question AND/OR edits the notes on
+    request. Edits go through apply_ops (same duplicate guard as everything
+    else); the reply to the user is built from what actually got applied, so
+    it never claims an edit that didn't happen."""
     prompt = f"""You are a voice assistant embedded in a live meeting notes tool.
-The user just addressed you directly with a question during a meeting.
+The user just addressed you directly during a meeting.
 
-Current meeting notes (only use this if the question is about the meeting itself):
+Current meeting notes:
 {state_outline(state)}
 
-Question: "{question}"
+User said: "{command}"
 
-Answer directly and concisely, 1-3 sentences. If it's about the meeting
-(action items, decisions, questions raised), answer from the notes above.
-Otherwise answer from general knowledge. Do not mention you're an AI,
-don't explain your reasoning, just answer.
+Return ONLY JSON: {{"ops": [...], "answer": "..."}}
 
-IMPORTANT: You can ONLY answer questions. You cannot edit the notes, add
-or change items, or stop/start the recording — never claim you did. If
-asked to edit the notes, say voice editing isn't supported yet and the
-request was logged in the Asked section. If asked to stop recording, say
-to press Ctrl+C in the terminal.
+- If the user asks you to add, record, note, or change something in the notes,
+  express it as ops and leave "answer" empty. Op types:
+  {{"op": "add", "section": "<section>", "text": "...", "owner": "<name, action items only>"}}
+  {{"op": "update", "section": "<section>", "id": "<existing ID>", "text": "..."}}
+  {{"op": "resolve", "section": "open_questions", "id": "<existing ID>"}}
+  <section> is exactly one of: decisions, action_items, open_questions, topics
+  ("discussion point" = topics). Use the section the user names. "text" is ONE
+  sentence under 25 words in plain past tense; no IDs. Items marked LOCKED must not be changed.
+- If it is a question, "ops" is [] and "answer" is 1-3 plain sentences: from the
+  notes if about the meeting, otherwise from general knowledge. Don't mention being an AI.
+- If asked to stop recording, answer that Ctrl+C in the terminal does that.
 {glossary_context_note(glossary)}"""
     try:
         resp = requests.post(OLLAMA_URL, json={
-            "model": OLLAMA_MODEL,
-            "prompt": prompt,
-            "stream": False,
-            "think": False
-        })
-        return resp.json()["response"].strip()
+            "model": OLLAMA_MODEL, "prompt": prompt, "stream": False,
+            "format": "json", "think": False,
+            "options": {"temperature": 0, "num_ctx": 16384},
+        }, timeout=60)
+        result = json.loads(resp.json()["response"])
+        if not isinstance(result, dict):
+            raise ValueError("not a JSON object")
     except Exception as e:
-        return f"(couldn't get an answer: {e})"
+        return f"(couldn't handle that: {e})"
+
+    ops = [op for op in result.get("ops") or [] if isinstance(op, dict)]
+    if ops:
+        applied = apply_ops(state, ops)
+        if applied:
+            return f"Done, {applied} change{'s' if applied != 1 else ''} made to the notes."
+        return "I didn't change anything; it may already be in the notes."
+    return str(result.get("answer") or "Sorry, I didn't catch that.").strip()
+
+
+_speaking = None
 
 
 def speak(text: str):
+    """Non-blocking: a blocking `say` stalls the whole listening loop, so the
+    next thing you said piled up behind it."""
+    global _speaking
     try:
-        subprocess.run(["say", text])
+        if _speaking and _speaking.poll() is None:
+            _speaking.terminate()
+        _speaking = subprocess.Popen(["say", text])
     except Exception as e:
         print(f"(couldn't speak answer: {e})")
 
@@ -1119,6 +1145,7 @@ def main():
     buffer = []
     chunk_count = 0
     last_chunk_text = ""
+    awaiting_command = False
     # In-memory copy of what goes to the raw log, feeding the editorial
     # window. On a mid-meeting restart, reload it from the log so the
     # editor doesn't lose its recent context.
@@ -1179,12 +1206,21 @@ def main():
             transcript_lines.append(text)
 
             query, notes_text = extract_trigger(text)
+            if query is None and awaiting_command:
+                # "Hey note machine" ended the last chunk; this one is the command.
+                query, notes_text = text, ""
+            awaiting_command = False
             if query is not None:
                 if notes_text:  # meeting content spoken before the wake phrase still counts
                     print(f"\n[chunk] {notes_text}")
                     state = merge_chunk(state, notes_text)
+                if not query:
+                    awaiting_command = True
+                    print("\n[heard wake phrase — listening for the command in the next chunk]")
+                    speak("Yes?")
+                    continue
                 print(f"\n[query] {query}")
-                answer = answer_query(query, state)
+                answer = handle_command(query, state)
                 print(f"[answer] {answer}")
                 speak(answer)
                 state["asked"].append({"q": query, "a": answer})
