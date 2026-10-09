@@ -1,0 +1,50 @@
+#!/bin/zsh
+# Launch a new meeting: pick template, people and (optionally) a title in
+# native macOS dialogs, then start live_notes.py in this terminal.
+#   meet                          dialogs
+#   meet -t 1-1 -p lilly,eng "Q4 catch-up"   skip dialogs (people = people.json keys)
+ROOT=${0:A:h:h}
+cd "$ROOT" || exit 1
+PY="$ROOT/venv/bin/python"
+[ -x "$PY" ] || { echo "No venv at $ROOT/venv — see README setup."; exit 1; }
+
+template="" people="" title="" have_args=0
+while getopts "t:p:" opt; do
+  case $opt in
+    t) template=$OPTARG; have_args=1 ;;
+    p) people=$OPTARG; have_args=1 ;;
+    *) exit 2 ;;
+  esac
+done
+shift $((OPTIND - 1))
+[ $# -gt 0 ] && { title="$*"; have_args=1; }
+
+# osascript list literal ({"a", "b"}) from newline-separated keys
+as_list() { print -r -- "$1" | awk 'NF{printf "%s\"%s\"", (n++?", ":""), $0}'; }
+
+if [ $have_args -eq 0 ]; then
+  tmpl_keys=$("$PY" -c 'import json;print("\n".join(json.load(open("templates.json"))))')
+  people_keys=$("$PY" -c 'import json;print("\n".join(json.load(open("people.json"))))' 2>/dev/null)
+
+  template=$(osascript -e "choose from list {$(as_list "$tmpl_keys")} with title \"New meeting\" with prompt \"Template\" default items {\"default\"}") || exit 1
+  [ "$template" = "false" ] && exit 0
+
+  if [ -n "$people_keys" ]; then
+    picked=$(osascript -e "choose from list {$(as_list "$people_keys")} with title \"New meeting\" with prompt \"Who's in the room? (⌘-click for several)\" with multiple selections allowed and empty selection allowed") || exit 1
+    [ "$picked" = "false" ] && exit 0
+    people=${picked//, /,}
+  fi
+
+  title=$(osascript -e 'text returned of (display dialog "Meeting title (optional)" default answer "" with title "New meeting" buttons {"Cancel", "Start"} default button "Start")') || exit 0
+fi
+
+args=(--new)
+[ -n "$title" ] && args+=("$title")
+[ -n "$template" ] && args+=(--template "$template")
+if [ -n "$people" ]; then
+  at=""
+  for k in ${(s:,:)people}; do at+="@${k// /},"; done
+  args+=(--attendees "${at%,}")
+fi
+
+exec "$PY" live_notes.py "${args[@]}"

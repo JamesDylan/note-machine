@@ -37,7 +37,7 @@ ollama pull qwen3.5:4b   # skip if already have it
 Each new terminal session, activate the venv first:
 
 ```bash
-cd /Users/jamesscholz/hobbes/note-machine
+cd /Users/jamesscholz/hobbes/personal/note-machine
 source venv/bin/activate
 ```
 
@@ -79,8 +79,8 @@ currently active — no need to track filenames or delete anything.
 
 Optional shortcut for `~/.zshrc`:
 ```bash
-alias notes='cd /Users/jamesscholz/hobbes/note-machine && source venv/bin/activate && python3 live_notes.py'
-alias notes-new='cd /Users/jamesscholz/hobbes/note-machine && source venv/bin/activate && python3 live_notes.py --new'
+alias notes='cd /Users/jamesscholz/hobbes/personal/note-machine && source venv/bin/activate && python3 live_notes.py'
+alias notes-new='cd /Users/jamesscholz/hobbes/personal/note-machine && source venv/bin/activate && python3 live_notes.py --new'
 ```
 
 First run will prompt macOS for microphone permission (Terminal needs
@@ -92,6 +92,26 @@ Anything said *before* the wake phrase in the same breath still goes
 into the notes. It can only answer questions right now — it cannot edit
 the notes or stop the recording by voice (that's a later phase); Ctrl+C
 stops the session.
+
+## Quick launch: `meet`
+
+`scripts/meet` pops up macOS dialogs — pick a template, tick the people
+from `people.json`, optionally type a title — then starts a new meeting in
+the current terminal. No venv activation needed.
+```bash
+alias meet='/Users/jamesscholz/hobbes/personal/note-machine/scripts/meet'   # add to ~/.zshrc
+meet                                  # dialogs
+meet -t 1-1 -p lilly,migration "Q4"   # skip dialogs
+```
+`scripts/Meet.command` is the same thing for double-clicking (or Spotlight /
+Dock), which opens Terminal for you.
+
+`people.json` maps a key to a name or a list of names (a group). `--attendees`
+and the notes header both accept `@key`, e.g. `--attendees "@migration, Priya"`.
+
+**Setting things mid-meeting:** the top of the notes file has editable
+`Title`, `Template` and `Attendees` lines. Change one and the next chunk
+adopts it — new attendees reach Whisper's vocabulary hint straight away.
 
 ## How sessions work
 

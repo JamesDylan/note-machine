@@ -67,6 +67,7 @@ EDITORIAL_WINDOW_LINES = 40     # recent transcript lines shown to the editor
 MAX_UPDATE_WORDS = 40           # an update longer than this is rejected as accretion
 GLOSSARY_PATH = "glossary.json"
 TEMPLATES_PATH = "templates.json"
+PEOPLE_PATH = "people.json"
 
 # --- Transcription hardening ---
 # Whisper regurgitates its own initial_prompt when handed near-silence: 60-81%
@@ -97,16 +98,18 @@ def parse_cli(argv) -> tuple:
     """`--new [title]` starts a fresh session; the optional title becomes
     part of the filenames (e.g. live_notes_20260910-130240-zac-1-1.md).
     `--attendees "Lilly, Remy, Craig"` tells transcription and the notes
-    model who is in the room — hugely improves name accuracy.
+    model who is in the room — hugely improves name accuracy. An entry like
+    `@eng` expands to that key's names from people.json.
     `--template 1-1` picks the section layout and the "what matters in this
     kind of meeting" hint fed to both model loops (see templates.json)."""
-    start_new, title, attendees, template = False, "", [], ""
+    start_new, title, raw_title, attendees, template = False, "", "", [], ""
     i = 0
     while i < len(argv):
         if argv[i] == "--new":
             start_new = True
             if i + 1 < len(argv) and not argv[i + 1].startswith("--"):
-                title = re.sub(r"[^A-Za-z0-9_-]+", "-", argv[i + 1]).strip("-").lower()
+                raw_title = argv[i + 1].strip()
+                title = re.sub(r"[^A-Za-z0-9_-]+", "-", raw_title).strip("-").lower()
                 i += 1
         elif argv[i] == "--attendees" and i + 1 < len(argv):
             attendees = [a.strip() for a in argv[i + 1].split(",") if a.strip()]
@@ -115,7 +118,7 @@ def parse_cli(argv) -> tuple:
             template = argv[i + 1].strip().lower()
             i += 1
         i += 1
-    return start_new, title, attendees, template
+    return start_new, title, raw_title, attendees, template
 
 
 def resolve_session(start_new: bool, title: str) -> str:
@@ -136,7 +139,7 @@ def resolve_session(start_new: bool, title: str) -> str:
     return slug
 
 
-START_NEW, SESSION_TITLE, CLI_ATTENDEES, CLI_TEMPLATE = parse_cli(sys.argv[1:])
+START_NEW, SESSION_TITLE, CLI_TITLE, CLI_ATTENDEES, CLI_TEMPLATE = parse_cli(sys.argv[1:])
 SESSION_SLUG = resolve_session(START_NEW, SESSION_TITLE)
 NOTES_PATH = f"live_notes_{SESSION_SLUG}.md"
 STATE_PATH = f"state_{SESSION_SLUG}.json"
@@ -193,15 +196,53 @@ def glossary_context_note(glossary: dict) -> str:
 
 
 def attendees_note(state: dict) -> str:
+    out = ""
+    if state.get("title"):
+        out += f"\nMeeting title: {state['title']}.\n"
     names = state.get("attendees", [])
-    if not names:
-        return ""
-    return (f"\nPeople in this meeting: {', '.join(names)}. Use these exact "
-            f"names; if the transcript has a phonetically similar wrong name, "
-            f"substitute the correct one.\n")
+    if names:
+        out += (f"\nPeople in this meeting: {', '.join(names)}. Use these exact "
+                f"names; if the transcript has a phonetically similar wrong name, "
+                f"substitute the correct one.\n")
+    return out
+
+
+def load_people(path: str) -> dict:
+    """people.json maps a short key to a name or a list of names, e.g.
+    {"lilly": "Lilly", "eng": ["Remy", "Chris"]}. Missing or unreadable
+    just means no shortcuts."""
+    try:
+        with open(path) as f:
+            return {k.lower(): v for k, v in json.load(f).items()}
+    except FileNotFoundError:
+        return {}
+    except (ValueError, AttributeError) as e:
+        print(f"(people.json unreadable, no @shortcuts: {e})")
+        return {}
+
+
+def resolve_people(entries: list, people: dict) -> list:
+    """Expand `@key` entries via people.json; anything else is a literal
+    name. Order is kept and duplicates dropped."""
+    out = []
+    for entry in entries:
+        entry = entry.strip()
+        if not entry:
+            continue
+        if entry.startswith("@"):
+            found = people.get(entry[1:].lower())
+            if found is None:
+                print(f"  (unknown people shortcut {entry!r}; known: {', '.join(sorted(people)) or 'none'})")
+                continue
+            names = [found] if isinstance(found, str) else list(found)
+        else:
+            names = [entry]
+        out += [n for n in names if n not in out]
+    return out
 
 
 glossary = load_glossary(GLOSSARY_PATH)
+people = load_people(PEOPLE_PATH)
 
 
 # --- Templates ---
@@ -343,6 +384,7 @@ def rms(audio) -> float:
 #   "deleted"  you deleted this bullet by hand; hidden, and blocks re-adds
 DEFAULT_STATE = {
     "summary": "",       # 1-2 sentence living summary, refreshed by the editorial pass
+    "title": "",         # free-text meeting title; shown in the notes header
     "attendees": [],     # from --attendees; fed to Whisper + every prompt
     "template": "default",
     "decisions": [],
@@ -384,6 +426,7 @@ def migrate_state(state: dict) -> dict:
     state["next_id"] = next_id
     state.setdefault("asked", [])
     state.setdefault("summary", "")
+    state.setdefault("title", "")
     state.setdefault("attendees", [])
     state.setdefault("template", "default")
     return state
@@ -904,8 +947,12 @@ def render_markdown(state: dict) -> str:
     lines = [f"# {title} — {datetime.now().strftime('%a %d %b %Y')}", ""]
     if state.get("summary"):
         lines += [f"> {state['summary']}", ""]
-    if state.get("attendees"):
-        lines += [f"**Attendees:** {', '.join(state['attendees'])}", ""]
+    # Editable header: change a line in the file and the next chunk adopts it.
+    lines += [f"**Title:** {state.get('title', '')}",
+              f"**Template:** {state.get('template') or 'default'}",
+              f"**Attendees:** {', '.join(state.get('attendees', []))}",
+              f"<!-- templates: {', '.join(sorted(templates))} · attendees accept @shortcuts from people.json -->",
+              ""]
 
     # Template order first, then any section it omits that has items — a
     # template chooses emphasis, it can never hide a note.
@@ -958,6 +1005,39 @@ def render_markdown(state: dict) -> str:
     return "\n".join(lines)
 
 
+HEADER_RE = re.compile(r"^\*\*(Title|Template|Attendees):\*\*[ \t]*(.*?)\s*$")
+
+
+def apply_header_line(state: dict, line: str) -> int:
+    """Adopt an edited Title / Template / Attendees header line. Returns 1
+    if state changed."""
+    m = HEADER_RE.match(line)
+    if not m:
+        return 0
+    key, value = m.group(1).lower(), m.group(2)
+    if key == "title":
+        if value != state.get("title", ""):
+            print(f"  [your edit] title set to {value!r}")
+            state["title"] = value
+            return 1
+    elif key == "template":
+        name = value.lower() or "default"
+        if name != state.get("template"):
+            if name not in templates:
+                print(f"  [your edit] unknown template {value!r}; known: {', '.join(sorted(templates))}")
+                return 0
+            print(f"  [your edit] template set to {name}")
+            state["template"] = name
+            return 1
+    else:
+        names = resolve_people([a for a in value.split(",")], people)
+        if names != state.get("attendees", []):
+            print(f"  [your edit] attendees set to {', '.join(names) or 'nobody'}")
+            state["attendees"] = names
+            return 1
+    return 0
+
+
 def reconcile_user_edits(state: dict, text: str) -> int:
     """Read the notes file back and fold your hand edits into state. A
     reworded bullet updates the item and LOCKS it, so no later model op can
@@ -976,6 +1056,7 @@ def reconcile_user_edits(state: dict, text: str) -> int:
             section = reverse_labels.get(heading.group(1).strip().lower())
             continue
         if section is None:
+            changes += apply_header_line(state, line)
             continue
         m = NOTE_LINE_RE.match(line)
         if m:
@@ -1108,14 +1189,16 @@ def main():
     whisper_model = WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
 
     state = load_state(STATE_PATH)
+    if CLI_TITLE:
+        state["title"] = CLI_TITLE
     if CLI_ATTENDEES:
-        state["attendees"] = CLI_ATTENDEES
+        state["attendees"] = resolve_people(CLI_ATTENDEES, people)
     if CLI_TEMPLATE:
         if CLI_TEMPLATE not in templates:
             print(f"Unknown template {CLI_TEMPLATE!r}; known: {', '.join(sorted(templates))}. Using default.")
         else:
             state["template"] = CLI_TEMPLATE
-    whisper_prompt = build_whisper_prompt(glossary, state.get("attendees", []))
+    whisper_prompt = ""
 
     print(f"Listening... writing live notes to {NOTES_PATH} (mirrored to {LATEST_NOTES_PATH}). Ctrl+C to stop.")
     print(f"Template: {state.get('template', 'default')}. Edit bullets in the notes file any time — "
@@ -1172,6 +1255,8 @@ def main():
             if rms(audio) < SILENCE_RMS:
                 continue  # silence never reaches Whisper, so it can't invent speech for it
 
+            # Rebuilt each chunk so attendees added in the notes header apply live.
+            whisper_prompt = build_whisper_prompt(glossary, state.get("attendees", []))
             segments, _ = whisper_model.transcribe(
                 audio,
                 language="en",
